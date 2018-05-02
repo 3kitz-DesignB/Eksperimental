@@ -10,6 +10,7 @@ public class DayAndNight : MonoBehaviour
     private GameObject sun, moon;
 
     private Light sunLight, moonLight;
+
     private bool sunOn, moonOn;
 
     [SerializeField]
@@ -17,6 +18,9 @@ public class DayAndNight : MonoBehaviour
 
     [SerializeField]
     private AnimationCurve sunSizeCurve, intensityCurve;
+
+    [SerializeField]
+    private Material sunSky, moonSky;
 
     [SerializeField]
     private float TimeOfDay = 0.25f, TimeSpeed = 0.25f;
@@ -28,9 +32,20 @@ public class DayAndNight : MonoBehaviour
             TimeOfDay -= 1;
         else if (TimeOfDay < 0)
             TimeOfDay += 1;
-        currentSkybox.SetFloat("_SunSize", Mathf.Lerp(sunSize.y, sunSize.x, sunSizeCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f)));
+        currentSkybox.SetFloat("_SunSize", Mathf.Lerp(sunSize.x, sunSize.y, sunSizeCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f)));
         UpdateEnables();
         UpdateIntensity();
+        transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(0, 360, TimeOfDay), transform.right);
+        if (TimeOfDay > 0.525f && RenderSettings.skybox != moonSky)
+        {
+            RenderSettings.skybox = moonSky;
+            RenderSettings.sun = moonLight;
+        }
+        else if (TimeOfDay < 0.525f && RenderSettings.skybox != sunSky)
+        {
+            RenderSettings.skybox = sunSky;
+            RenderSettings.sun = sunLight;
+        }
     }
 
     private void Awake()
@@ -85,11 +100,11 @@ public class DayAndNight : MonoBehaviour
     {
         if (sunOn)
         {
-            sunLight.intensity = Mathf.Lerp(SunIntensity.y, SunIntensity.x, intensityCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f));
+            sunLight.intensity = Mathf.Lerp(SunIntensity.x, SunIntensity.y, intensityCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f));
         }
         if (moonOn)
         {
-            moonLight.intensity = Mathf.Lerp(MoonIntensity.y, MoonIntensity.x, intensityCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f));
+            moonLight.intensity = Mathf.Lerp(MoonIntensity.x, MoonIntensity.y, intensityCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f));
         }
     }
 }
