@@ -7,6 +7,9 @@ public class DayAndNight : MonoBehaviour
 {
     private Material currentSkybox;
 
+    [SerializeField]
+    private Vector3 RotationVector = new Vector3(1, 0.1f, 0.1f);
+
     private GameObject sun, moon;
 
     private Light sunLight, moonLight;
@@ -35,7 +38,10 @@ public class DayAndNight : MonoBehaviour
         currentSkybox.SetFloat("_SunSize", Mathf.Lerp(sunSize.x, sunSize.y, sunSizeCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f)));
         UpdateEnables();
         UpdateIntensity();
+        //transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(0, 360, TimeOfDay), RotationVector.normalized);
+
         transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(0, 360, TimeOfDay), transform.right);
+        //transform.Rotate(RotationVector * Time.deltaTime);
         if (TimeOfDay > 0.525f && RenderSettings.skybox != moonSky)
         {
             RenderSettings.skybox = moonSky;
