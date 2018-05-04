@@ -44,11 +44,11 @@ public class DayAndNight : MonoBehaviour
         UpdateSkybox();
 
         transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(0, 360, TimeOfDay), transform.right);
-        if (TimeOfDay > 0.5f && RenderSettings.sun != moonLight)
+        if (TimeOfDay > 0.56f && RenderSettings.sun != moonLight)
         {
             RenderSettings.sun = moonLight;
         }
-        else if (TimeOfDay < 0.5f && RenderSettings.sun != sunLight)
+        else if (TimeOfDay < 0.56f && RenderSettings.sun != sunLight)
         {
             RenderSettings.sun = sunLight;
         }
@@ -56,24 +56,24 @@ public class DayAndNight : MonoBehaviour
 
     private void UpdateSkybox()
     {
-        if (TimeOfDay > 0.45f && TimeOfDay < 0.55f)
+        if (TimeOfDay > 0.4f && TimeOfDay < 0.6f)
         {
-            float t = Mathf.Clamp01(Mathf.InverseLerp(0.45f, 0.55f, TimeOfDay));
+            float t = Mathf.Clamp01(Mathf.InverseLerp(0.4f, 0.6f, TimeOfDay));
             RenderSettings.skybox.SetFloat("_SunSize", Mathf.Lerp(sunSize, moonSize, t));
             RenderSettings.skybox.SetFloat("_AtmosphereThickness", Mathf.Lerp(sunThickness, moonThickness, t));
             RenderSettings.skybox.SetFloat("_Exposure", Mathf.Lerp(sunExpo, moonExpo, t));
             RenderSettings.skybox.SetColor("_SkyTint", Color.Lerp(sunColor, moonColor, t));
         }
-        else if (TimeOfDay > 0.95f || TimeOfDay < 0.05f)
+        else if (TimeOfDay > 0.9f || TimeOfDay < 0.1f)
         {
             float t = 0;
-            if (TimeOfDay < 0.95f)
+            if (TimeOfDay < 0.9f)
             {
-                t = Mathf.Clamp01(Mathf.InverseLerp(-0.05f, 0.05f, TimeOfDay));
+                t = Mathf.Clamp01(Mathf.InverseLerp(-0.1f, 0.1f, TimeOfDay));
             }
             else
             {
-                t = Mathf.Clamp01(Mathf.InverseLerp(0.95f, 1.05f, TimeOfDay));
+                t = Mathf.Clamp01(Mathf.InverseLerp(0.9f, 1.1f, TimeOfDay));
             }
             RenderSettings.skybox.SetFloat("_SunSize", Mathf.Lerp(moonSize, sunSize, t));
             RenderSettings.skybox.SetFloat("_AtmosphereThickness", Mathf.Lerp(moonThickness, sunThickness, t));
@@ -142,11 +142,11 @@ public class DayAndNight : MonoBehaviour
     {
         //if (sunOn)
         //{
-        sunLight.intensity = Mathf.Lerp(SunIntensity.x, SunIntensity.y, intensityCurve.Evaluate(Mathf.InverseLerp(0, 0.5f, TimeOfDay)));
+        sunLight.intensity = Mathf.Lerp(SunIntensity.x, SunIntensity.y, intensityCurve.Evaluate(Mathf.InverseLerp(0, 0.51f, TimeOfDay)));
         //}
         //if (moonOn)
         //{
-        moonLight.intensity = Mathf.Lerp(MoonIntensity.x, MoonIntensity.y, intensityCurve.Evaluate(Mathf.InverseLerp(0.5f, 1, TimeOfDay)));
+        moonLight.intensity = Mathf.Lerp(MoonIntensity.x, MoonIntensity.y, intensityCurve.Evaluate(Mathf.InverseLerp(0.51f, 1, TimeOfDay)));
         //}
     }
 }
