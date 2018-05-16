@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BGM
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 245949522804923084}
+  - {fileID: 245584982229691310}
+  - {fileID: 245738863016478970}
+  - {fileID: 245773518389408174}
+  m_StartSnapshot: {fileID: 245949522804923084}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - d4aa770ed411694439847b9591d8764e
+    - 060744d63b325f44fb528a6f2d177854
+    - a3e72f34bf7097a478b4ed95a90c5a6a
+    - 8e9ff99d929a6ca409ee8fe47f7d4c4c
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 245949522804923084}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: d4aa770ed411694439847b9591d8764e
+  m_Children:
+  - {fileID: 243507893048494574}
+  - {fileID: 243757798077783426}
+  - {fileID: 243886231749445152}
+  m_Volume: b6c70c9abb34d664e913236636812ced
+  m_Pitch: 11bbe2a240506f64a9958a75ebc96194
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 29deb55fab8e55b46bdecdc1d855dc19
+  m_EffectName: Attenuation
+  m_MixLevel: 2a5bee2744183124a8914d447e675631
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &243507893048494574
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FoodCourt
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 060744d63b325f44fb528a6f2d177854
+  m_Children: []
+  m_Volume: 1814272f317b5f84a9375dc01384b304
+  m_Pitch: f98dd708545c7bc408c6da378fe3b99a
+  m_Effects:
+  - {fileID: 244126817978938612}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243757798077783426
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Indoor
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: a3e72f34bf7097a478b4ed95a90c5a6a
+  m_Children: []
+  m_Volume: 41725eb5c42fe6d41b54f1a6373be7ea
+  m_Pitch: 2a8f8211113869b42b83fbb66e548dcd
+  m_Effects:
+  - {fileID: 244008321911876940}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &243886231749445152
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Outdoor
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 8e9ff99d929a6ca409ee8fe47f7d4c4c
+  m_Children: []
+  m_Volume: 95e3e184277340a40a73ea1671d51797
+  m_Pitch: bfabbe5cde7786c419dc5e2016a4d96b
+  m_Effects:
+  - {fileID: 244245992584288892}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244008321911876940
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 5451e58182cf7db49b7ab988ab5f20ad
+  m_EffectName: Attenuation
+  m_MixLevel: 46dc38679b761604185c7a61ae7baa0d
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244126817978938612
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 1561425281c6a7d459afdc00615a5f4f
+  m_EffectName: Attenuation
+  m_MixLevel: 360143418cca7fb469fbd6c7a0f3f501
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244245992584288892
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: c088c31b987a89247932d39ab7422a29
+  m_EffectName: Attenuation
+  m_MixLevel: cab9a38b36bd57a44bfc833ecba3368c
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &245584982229691310
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FoodCourt
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 3833d57efdd083e48a8804bc9e8661d5
+  m_FloatValues:
+    95e3e184277340a40a73ea1671d51797: -80
+    41725eb5c42fe6d41b54f1a6373be7ea: -80
+  m_TransitionOverrides: {}
+--- !u!245 &245738863016478970
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Indoor
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 85ddf53e1fd801c489e52e183319f35f
+  m_FloatValues:
+    95e3e184277340a40a73ea1671d51797: -80
+    1814272f317b5f84a9375dc01384b304: -80
+  m_TransitionOverrides: {}
+--- !u!245 &245773518389408174
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Outdoor
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 5f2af267e17286849aa34cdc6aaf6f85
+  m_FloatValues:
+    41725eb5c42fe6d41b54f1a6373be7ea: -80
+    1814272f317b5f84a9375dc01384b304: -80
+  m_TransitionOverrides: {}
+--- !u!245 &245949522804923084
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: None
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 9dfd42eaa933e9643ac948430cf4c668
+  m_FloatValues:
+    95e3e184277340a40a73ea1671d51797: -80
+    41725eb5c42fe6d41b54f1a6373be7ea: -80
+    b6c70c9abb34d664e913236636812ced: 0
+    1814272f317b5f84a9375dc01384b304: -80
+  m_TransitionOverrides: {}
