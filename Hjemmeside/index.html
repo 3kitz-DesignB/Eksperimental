@@ -16,13 +16,21 @@
   border-radius: 0;
   background-color: #5E4485;
   padding: 1% 0;
-  font-size: 1.2em;
+  font-size: 2.5em;
   border: 0;
+  z-index: 1;
 }
 .navbar-brand{
   float: left;
   min-height: 55px;
-  padding: 0 15px 5px;
+  padding: 15px 50px 50px;
+  color: #D5D5D5;
+}
+.navbar-brand-active{
+  float: left;
+  min-height: 55px;
+  padding-left: 30px;
+  color: #FFF;
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
   color: #FFF;
@@ -34,9 +42,26 @@
 .parallax-window {
   min-height: 100px;
   background: transparent;
+  position: absolute;
+  background-color: white;
+  margin: 0px 20% 50px 20%;
+  padding: 10px;
+  border-style: outset;
 }
+.text-box{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+.top-background{
+  float: center;
+  overflow: hidden;
+  z-index: -1;
+}
+.overskrift{
 
-
+  text-align: left;
+}
     </style>
   </head>
   <body>
@@ -48,37 +73,50 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!--<a class="navbar-brand" href="#"><img src="./img/monkaS.png">!-->
+          <a class="navbar-brand-active" href="#">Innovations Bygningen</a>
         </div>
         <div>
             <div class="collapse navbar-collapse" id="TopNavbar">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="about.html">Om Os</a></li>
-                <li><a href="https://www.gamecollege.dk/"><img src="./img/GameCollege.jpg" height="30px"> </a></li>
-                <li><a href="https://www.videndjurs.dk/"><img src="./img/VID.jpg" height="30px"></a></li>
+                <li><a href="https://www.gamecollege.dk/"><img src="./img/GameCollege.jpg" height="30px"></img> </a></li>
+                <li><a href="https://www.videndjurs.dk/"><img src="./img/VID.jpg" height="30px"></img></a></li>
               </ul>
             </div>
         </div>
       </div>
     </nav>
+    <div class="top-background">
+      <img src="./img/bg1.jpg"></img>
+    </div>
     <div class="main-body">
-      <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/bg2.jpg" data-natural-width="1920" data-natural-height="1080" style="height:690px;"></div>
       <section>
         <div class="parallax-window">
-          <h1>"This is a test"</h1>
-
-
+          <h1 class="overskrift">Grøn</h1>
+          <br class="text-box">For os er naturen en vigtig ting og med alle disse nye typer for bæredygtige projekter der dukker op rundt omkring i verden, er det os en ære at kunne støtte denne sag med vores nye bygning Innovation, på bygningens top vil vi have et grønt område hvor folk kan komme op og nyde naturen og vejret og blive påmindet om hvorfor det er så vigtigt at bevare moderjord. Udover at vise det grønne frem står vi også for bæredygtighed og vi mener at de næste generationer også skal have lov at opleve naturen som vi gør, derfor har vi som en naturlig del i facaden solpaneler som er med til at holde bygningen selvfunktionel, materialerne i bygningen kommer også til at spille en stor rolle og kommer til at være med til at bane vejen frem mod en bedre fremtid.
+        </br>
         </div>
       </section>
-      <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/bg1.jpg" data-natural-width="1920" data-natural-height="1080" style="height:690px;"></div>
+      <div class="parallax-container" data-parallax="scroll" data-speed="0.2" data-image-src="./img/bg2.jpg" data-natural-width="1920" data-natural-height="1080" style="height:690px;"></div>
       <section>
         <div class="parallax-window">
-          <h1>"This is a test"</h1>
-
-
+          <h1 class="overskrift">Smart</h1>
+          <br class="text-box">
+          Innovation er en bygning med omtanke og dette bliver også reflekteret i overvejelserne der gik ind i projektet. Vi ønsker eleverne som bruger vores bygning en sikker tilgang, dette sker gennem vores underjordisk hub, som er direkte linket til busstoppet som ligger på den anden side af gaden fra bygningen, dette gør så eleverne ikke behøver krydse en trafikeret vej og gør at bilerne også har lettere ved at komme og tilbage. For at kunne bruge så meget af den plads vi har som muligt har vi valgt at gå ned ad og skabe en kælder for parkeringspladser til elever og ansatte. Men ikke kun en kælder vi laver en social hub i kælderen som tillader et sted for personer at spise og lave lektier, dette gør også at der er mere plads i bygningen til klasser og mere plads til at holde den rene stil.
+          </br
         </div>
       </section>
-      <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/bg3.jpg" data-natural-width="1920" data-natural-height="1080" style="height:690px;"></div>
+      <div class="parallax-container" data-parallax="scroll" data-speed="0.2" data-image-src="./img/bg3.jpg" data-natural-width="1920" data-natural-height="1080" style="height:690px;"></div>
+      <section>
+        <div class="parallax-window">
+          <h1 class="overskrift">Innovation</h1>
+          <br class="text-box">
+          Innovation er nytænkende, udviklende, åbensindet og visionært. Dette er præcis hvad designerne og arkitekterne har været inspireret af, for at skabe bygningen Innovation, og det er præcis hvad Innovation reflekterer med dens nye unikke arkitektur, smukke former, og det overskuelige, åbne design. Der er altså tænkt på fremtiden da man skulle skabe Innovation, hvilket også er grunden til at når man kigger på Innovation og alt det som bygningen tilbyder, får man et glimt ind i hvad fremtiden byder på. Designet af bygningen tilbyder en meget åben stil som inspiration til de mennesker som befinder sig i bygningen, det skal give følelsen af at intet holder en tilbage.
+          </br
+        </div>
+      </section>
+      <div class="parallax-container" data-parallax="scroll" data-speed="0.2" data-image-src="./img/bg4.jpg" data-natural-width="1920" data-natural-height="1080" style="height:690px;"></div>
+
     </div>
   </body>
 </html>

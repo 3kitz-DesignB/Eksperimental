@@ -11,30 +11,48 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./parallax/parallax.js"></script>
     <style>
-.navbar{
-  margin-bottom: 0;
-  border-radius: 0;
-  background-color: #5E4485;
-  padding: 1% 0;
-  font-size: 1.2em;
-  border: 0;
-}
-.navbar-brand{
-  float: left;
-  min-height: 55px;
-  padding: 0 15px 5px;
-}
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
-  color: #FFF;
-  background-color: #5E4485;
-}
-.navbar-inverse .navbar-nav li a {
-  color: #D5D5D5;
-}
-.parallax-window {
-  min-height: 100px;
-  background: transparent;
-}
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #5E4485;
+      padding: 1% 0;
+      font-size: 2.5em;
+      border: 0;
+      z-index: 1;
+    }
+    .navbar-brand{
+      float: left;
+      min-height: 55px;
+      padding: 15px 50px 50px;
+      color: #D5D5D5;
+    }
+    .navbar-brand-active{
+      float: left;
+      min-height: 55px;
+      padding-left: 30px;
+      color: #FFF;
+    }
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+      color: #FFF;
+      background-color: #5E4485;
+    }
+    .navbar-inverse .navbar-nav li a {
+      color: #D5D5D5;
+    }
+    .parallax-window {
+      min-height: 100px;
+      background: transparent;
+    }
+    .text-box{
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: center;
+    }
+    .top-background{
+      float: center;
+      overflow: hidden;
+      z-index: -1;
+    }
 .big-pic{
   float: center;
   padding-bottom: -3000px;
@@ -55,6 +73,7 @@
 
 .text{
   text-align: center;
+
 }
     </style>
   </head>
@@ -67,7 +86,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!--<a class="navbar-brand" href="#"><img src="./img/monkaS.png">!-->
+          <a class="navbar-brand-active" href="./index.html">Innovations Bygningen</a>
         </div>
         <div>
             <div class="collapse navbar-collapse" id="TopNavbar">
@@ -86,7 +105,6 @@
     </div>
       <div class="about">
         <h1>Om os</h1>
-
         <div class="text">
           <br>Vi er en klasse fra årgang 2015-2018 på Game College i Grenaa. Game College er en HTX-uddannelse, som fokuserer på udvikling af computerspil. Derfor deler alle i klassen også den samme passion for computerspil.
           </br>
@@ -96,7 +114,6 @@
         </br>
         </div>
       </div>
-        <!-- Skriv her fra og ned!-->
     </div>
   </body>
 </html>
