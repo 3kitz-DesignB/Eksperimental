@@ -17,16 +17,20 @@ public class DayAndNight : MonoBehaviour
     private bool sunOn, moonOn;
 
     [SerializeField]
-    private Vector2 sunSize = new Vector2(0.04f, 0.06f), SunIntensity = new Vector2(0.25f, 1.1f), MoonIntensity = new Vector2(0.25f, 0.75f);
+    private Vector2 SunIntensity = new Vector2(0.25f, 1.1f), MoonIntensity = new Vector2(0.25f, 0.75f);
 
     [SerializeField]
-    private AnimationCurve sunSizeCurve, intensityCurve;
+    private AnimationCurve intensityCurve;
 
     [SerializeField]
     private Material sunSky, moonSky;
 
     [SerializeField]
     private float TimeOfDay = 0.25f, TimeSpeed = 0.25f;
+
+    private float sunSize, moonSize, sunThickness, moonThickness, sunExpo, moonExpo;
+
+    private Color sunColor, moonColor;
 
     public void Update()
     {
@@ -35,22 +39,46 @@ public class DayAndNight : MonoBehaviour
             TimeOfDay -= 1;
         else if (TimeOfDay < 0)
             TimeOfDay += 1;
-        currentSkybox.SetFloat("_SunSize", Mathf.Lerp(sunSize.x, sunSize.y, sunSizeCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f)));
         UpdateEnables();
         UpdateIntensity();
-        //transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(0, 360, TimeOfDay), RotationVector.normalized);
+        UpdateSkybox();
 
         transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(0, 360, TimeOfDay), transform.right);
-        //transform.Rotate(RotationVector * Time.deltaTime);
-        if (TimeOfDay > 0.525f && RenderSettings.skybox != moonSky)
+        if (TimeOfDay > 0.56f && RenderSettings.sun != moonLight)
         {
-            RenderSettings.skybox = moonSky;
             RenderSettings.sun = moonLight;
         }
-        else if (TimeOfDay < 0.525f && RenderSettings.skybox != sunSky)
+        else if (TimeOfDay < 0.56f && RenderSettings.sun != sunLight)
         {
-            RenderSettings.skybox = sunSky;
             RenderSettings.sun = sunLight;
+        }
+    }
+
+    private void UpdateSkybox()
+    {
+        if (TimeOfDay > 0.4f && TimeOfDay < 0.6f)
+        {
+            float t = Mathf.Clamp01(Mathf.InverseLerp(0.4f, 0.6f, TimeOfDay));
+            RenderSettings.skybox.SetFloat("_SunSize", Mathf.Lerp(sunSize, moonSize, t));
+            RenderSettings.skybox.SetFloat("_AtmosphereThickness", Mathf.Lerp(sunThickness, moonThickness, t));
+            RenderSettings.skybox.SetFloat("_Exposure", Mathf.Lerp(sunExpo, moonExpo, t));
+            RenderSettings.skybox.SetColor("_SkyTint", Color.Lerp(sunColor, moonColor, t));
+        }
+        else if (TimeOfDay > 0.9f || TimeOfDay < 0.1f)
+        {
+            float t = 0;
+            if (TimeOfDay < 0.9f)
+            {
+                t = Mathf.Clamp01(Mathf.InverseLerp(-0.1f, 0.1f, TimeOfDay));
+            }
+            else
+            {
+                t = Mathf.Clamp01(Mathf.InverseLerp(0.9f, 1.1f, TimeOfDay));
+            }
+            RenderSettings.skybox.SetFloat("_SunSize", Mathf.Lerp(moonSize, sunSize, t));
+            RenderSettings.skybox.SetFloat("_AtmosphereThickness", Mathf.Lerp(moonThickness, sunThickness, t));
+            RenderSettings.skybox.SetFloat("_Exposure", Mathf.Lerp(moonExpo, sunExpo, t));
+            RenderSettings.skybox.SetColor("_SkyTint", Color.Lerp(moonColor, sunColor, t));
         }
     }
 
@@ -61,56 +89,64 @@ public class DayAndNight : MonoBehaviour
         sunLight = sun.GetComponent<Light>();
         moon = transform.GetChild(1).gameObject;
         moonLight = moon.GetComponent<Light>();
+        sunSize = sunSky.GetFloat("_SunSize");
+        moonSize = moonSky.GetFloat("_SunSize");
+        sunThickness = sunSky.GetFloat("_AtmosphereThickness");
+        moonThickness = moonSky.GetFloat("_AtmosphereThickness");
+        sunExpo = sunSky.GetFloat("_Exposure");
+        moonExpo = moonSky.GetFloat("_Exposure");
+        sunColor = sunSky.GetColor("_SkyTint");
+        moonColor = moonSky.GetColor("_SkyTint");
 
-        if (TimeOfDay > 0.5f)
-        {
-            sunOn = false;
-            sun.SetActive(false);
-            moonOn = true;
-            moon.SetActive(true);
-        }
-        else
-        {
-            sunOn = true;
-            sun.SetActive(true);
-            moonOn = false;
-            moon.SetActive(false);
-        }
+        //if (TimeOfDay > 0.5f)
+        //{
+        //    sunOn = false;
+        //    sun.SetActive(false);
+        //    moonOn = true;
+        //    moon.SetActive(true);
+        //}
+        //else
+        //{
+        //    sunOn = true;
+        //    sun.SetActive(true);
+        //    moonOn = false;
+        //    moon.SetActive(false);
+        //}
     }
 
     private void UpdateEnables()
     {
-        if (!moonOn && (TimeOfDay > 0.475f && (TimeOfDay < 1.025f || TimeOfDay < 0.025f)))
-        {
-            moonOn = true;
-            moon.SetActive(true);
-        }
-        else if (moonOn && (TimeOfDay < 0.475f && (TimeOfDay > 1.025f || TimeOfDay > 0.025f)))
-        {
-            moonOn = false;
-            moon.SetActive(false);
-        }
-        if (!sunOn && (TimeOfDay < 0.525f && (TimeOfDay > -0.025f || TimeOfDay > 0.975f)))
-        {
-            sunOn = true;
-            sun.SetActive(true);
-        }
-        else if (sunOn && (TimeOfDay > 0.525f && (TimeOfDay < -0.025f || TimeOfDay < 0.975f)))
-        {
-            sunOn = false;
-            sun.SetActive(false);
-        }
+        //if (!moonOn && (TimeOfDay > 0.475f && (TimeOfDay < 1.025f || TimeOfDay < 0.025f)))
+        //{
+        //    moonOn = true;
+        //    moon.SetActive(true);
+        //}
+        //else if (moonOn && (TimeOfDay < 0.475f && (TimeOfDay > 1.025f || TimeOfDay > 0.025f)))
+        //{
+        //    moonOn = false;
+        //    moon.SetActive(false);
+        //}
+        //if (!sunOn && (TimeOfDay < 0.525f && (TimeOfDay > -0.025f || TimeOfDay > 0.975f)))
+        //{
+        //    sunOn = true;
+        //    sun.SetActive(true);
+        //}
+        //else if (sunOn && (TimeOfDay > 0.525f && (TimeOfDay < -0.025f || TimeOfDay < 0.975f)))
+        //{
+        //    sunOn = false;
+        //    sun.SetActive(false);
+        //}
     }
 
     private void UpdateIntensity()
     {
-        if (sunOn)
-        {
-            sunLight.intensity = Mathf.Lerp(SunIntensity.x, SunIntensity.y, intensityCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f));
-        }
-        if (moonOn)
-        {
-            moonLight.intensity = Mathf.Lerp(MoonIntensity.x, MoonIntensity.y, intensityCurve.Evaluate((TimeOfDay % 0.5f) / 0.5f));
-        }
+        //if (sunOn)
+        //{
+        sunLight.intensity = Mathf.Lerp(SunIntensity.x, SunIntensity.y, intensityCurve.Evaluate(Mathf.InverseLerp(0, 0.51f, TimeOfDay)));
+        //}
+        //if (moonOn)
+        //{
+        moonLight.intensity = Mathf.Lerp(MoonIntensity.x, MoonIntensity.y, intensityCurve.Evaluate(Mathf.InverseLerp(0.51f, 1, TimeOfDay)));
+        //}
     }
 }
