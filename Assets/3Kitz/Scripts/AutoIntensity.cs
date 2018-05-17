@@ -3,71 +3,79 @@ using System.Collections;
 
 public class AutoIntensity : MonoBehaviour
 {
-    public Gradient nightDayColor;
+    [SerializeField]
+    private Gradient nightDayColor;
 
-    public float maxIntensity = 3f;
-    public float minIntensity = 0f;
-    public float minPoint = -0.2f;
+    [SerializeField]
+    private float
+        maxIntensity = 3f,
+        minIntensity = 0f,
+        minPoint = -0.2f;
 
-    public float maxAmbient = 1f;
-    public float minAmbient = 0f;
-    public float minAmbientPoint = -0.2f;
+    [SerializeField]
+    private float
+        maxAmbient = 1f,
+        minAmbient = 0f,
+        minAmbientPoint = -0.2f;
 
-    public Gradient nightDayFogColor;
-    public AnimationCurve fogDensityCurve;
-    public float fogScale = 1f;
+    [SerializeField] private Gradient nightDayFogColor;
+    [SerializeField] private AnimationCurve fogDensityCurve;
+    [SerializeField] private float fogScale = 1f;
 
-    public float dayAtmosphereThickness = 0.4f;
-    public float nightAtmosphereThickness = 0.87f;
+    [SerializeField]
+    private float
+        dayAtmosphereThickness = 0.4f,
+        nightAtmosphereThickness = 0.87f;
 
-    public Vector3 dayRotateSpeed;
-    public Vector3 nightRotateSpeed;
-
-    private float skySpeed = 1;
-
+    [SerializeField]
+    private Vector3
+        dayRotateSpeed,
+        nightRotateSpeed;
+    
     private Light mainLight;
     private Skybox sky;
     private Material skyMat;
 
+    public float SkySpeed { get; set; } = 1f;
+
     private void Start()
     {
-        mainLight = GetComponent<Light>();
-        skyMat = RenderSettings.skybox;
+        this.mainLight = GetComponent<Light>();
+        this.skyMat = RenderSettings.skybox;
     }
 
     private void Update()
     {
-        float tRange = 1 - minPoint;
-        float dot = Mathf.Clamp01((Vector3.Dot(mainLight.transform.forward, Vector3.down) - minPoint) / tRange);
-        float i = ((maxIntensity - minIntensity) * dot) + minIntensity;
+        float tRange = 1f - this.minPoint;
+        float dot = Mathf.Clamp01((Vector3.Dot(this.mainLight.transform.forward, Vector3.down) - this.minPoint) / tRange);
+        float intensity = ((this.maxIntensity - this.minIntensity) * dot) + this.minIntensity;
 
-        mainLight.intensity = i;
+        this.mainLight.intensity = intensity;
 
-        tRange = 1 - minAmbientPoint;
-        dot = Mathf.Clamp01((Vector3.Dot(mainLight.transform.forward, Vector3.down) - minAmbientPoint) / tRange);
-        i = ((maxAmbient - minAmbient) * dot) + minAmbient;
-        RenderSettings.ambientIntensity = i;
+        tRange = 1 - this.minAmbientPoint;
+        dot = Mathf.Clamp01((Vector3.Dot(this.mainLight.transform.forward, Vector3.down) - this.minAmbientPoint) / tRange);
+        intensity = ((this.maxAmbient - this.minAmbient) * dot) + this.minAmbient;
+        RenderSettings.ambientIntensity = intensity;
 
-        mainLight.color = nightDayColor.Evaluate(dot);
-        RenderSettings.ambientLight = mainLight.color;
+        this.mainLight.color = this.nightDayColor.Evaluate(dot);
+        RenderSettings.ambientLight = this.mainLight.color;
 
-        RenderSettings.fogColor = nightDayFogColor.Evaluate(dot);
-        RenderSettings.fogDensity = fogDensityCurve.Evaluate(dot) * fogScale;
+        RenderSettings.fogColor = this.nightDayFogColor.Evaluate(dot);
+        RenderSettings.fogDensity = this.fogDensityCurve.Evaluate(dot) * this.fogScale;
 
-        i = ((dayAtmosphereThickness - nightAtmosphereThickness) * dot) + nightAtmosphereThickness;
-        skyMat.SetFloat("_AtmosphereThickness", i);
+        intensity = ((this.dayAtmosphereThickness - this.nightAtmosphereThickness) * dot) + this.nightAtmosphereThickness;
+        this.skyMat.SetFloat("_AtmosphereThickness", intensity);
+        
+        this.transform.Rotate((dot > 0 ? this.dayRotateSpeed : this.nightRotateSpeed) * Time.deltaTime * this.SkySpeed);
+       
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            this.SkySpeed *= 0.5f;
+        }
 
-        //dot = (Vector3.Dot(mainLight.transform.forward, Vector3.down) - minPoint) / tRange;
-        //Debug.Log(dot);
-
-        //transform.rotation = Quaternion.AngleAxis(Mathf.Lerp(0, 360, Mathf.InverseLerp(-1, 1, dot)), transform.right);
-
-        if (dot > 0)
-            transform.Rotate(dayRotateSpeed * Time.deltaTime * skySpeed);
-        else
-            transform.Rotate(nightRotateSpeed * Time.deltaTime * skySpeed);
-
-        if (Input.GetKeyDown(KeyCode.Q)) skySpeed *= 0.5f;
-        if (Input.GetKeyDown(KeyCode.E)) skySpeed *= 2f;
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            this.SkySpeed *= 2f;
+        }
     }
 }
