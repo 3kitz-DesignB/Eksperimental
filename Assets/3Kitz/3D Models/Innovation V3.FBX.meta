@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: f3b6c756b151c0f43afa5d912185cd28
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 1st floor
+    100002: 2nd floor
+    100004: 3rd floor
+    100006: basement
+    100008: Box001
+    100010: Box001 1
+    100012: Box0010
+    100014: Box002
+    100016: Box002 1
+    100018: Box0020
+    100020: Box003
+    100022: Box003 1
+    100024: Box003 2
+    100026: Box004
+    100028: Box004 1
+    100030: Box004 2
+    100032: Box005
+    100034: Box005 1
+    100036: Box005 2
+    100038: Box006
+    100040: Box006 1
+    100042: Box006 2
+    100044: Box007
+    100046: Box007 1
+    100048: Box007 2
+    100050: Box008
+    100052: Box0080
+    100054: Box009
+    100056: Box0090
+    100058: Box010
+    100060: Box010 1
+    100062: Box011
+    100064: Box012
+    100066: Box012 1
+    100068: Box013
+    100070: Box013 1
+    100072: Box014
+    100074: Box014 1
+    100076: Box015
+    100078: Box0150
+    100080: Box016
+    100082: Box017
+    100084: Box017 1
+    100086: Box018
+    100088: Box018 1
+    100090: Box019
+    100092: Box019 1
+    100094: Box020
+    100096: Box020 1
+    100098: Box021
+    100100: Box136
+    100102: Box137
+    100104: Box138
+    100106: Box139
+    100108: Box140
+    100110: Box141
+    100112: Box142
+    100114: Box143
+    100116: Box144
+    100118: Box145
+    100120: Box146
+    100122: Box147
+    100124: Box148
+    100126: Box149
+    100128: Box150
+    100130: Box151
+    100132: Box152
+    100134: Box153
+    100136: Box154
+    100138: Box155
+    100140: Box156
+    100142: Box161
+    100144: Box162
+    100146: Box164
+    100148: Box165
+    100150: Box166
+    100152: Box169
+    100154: Box170
+    100156: Box171
+    100158: Box172
+    100160: Box173
+    100162: Box174
+    100164: Box175
+    100166: Box176
+    100168: Box177
+    100170: Box178
+    100172: Box179
+    100174: Box180
+    100176: Box181
+    100178: Box182
+    100180: Box183
+    100182: Box184
+    100184: Box185
+    100186: Box186
+    100188: Box187
+    100190: Box188
+    100192: Box189
+    100194: Box190
+    100196: Box191
+    100198: Box192
+    100200: Box193
+    100202: Box194
+    100204: Box198
+    100206: Box199
+    100208: Box200
+    100210: Box201
+    100212: Box202
+    100214: Box203
+    100216: Box204
+    100218: Box205
+    100220: Box206
+    100222: Box207
+    100224: Box208
+    100226: Box209
+    100228: Box210
+    100230: Box211
+    100232: Box212
+    100234: Box213
+    100236: Box214
+    100238: Box215
+    100240: Box216
+    100242: Box217
+    100244: Box218
+    100246: Box219
+    100248: Box220
+    100250: Box221
+    100252: Box222
+    100254: Box223
+    100256: Box224
+    100258: Box225
+    100260: Box226
+    100262: Box227
+    100264: Box228
+    100266: Box229
+    100268: Box230
+    100270: Box231
+    100272: Box232
+    100274: Box234
+    100276: Box235
+    100278: Box236
+    100280: Box237
+    100282: Box238
+    100284: Box239
+    100286: Box240
+    100288: Box241
+    100290: Box242
+    100292: Box243
+    100294: Box244
+    100296: Box245
+    100298: Box246
+    100300: Box247
+    100302: Box248
+    100304: Box249
+    100306: Box250
+    100308: Box251
+    100310: Box252
+    100312: Box253
+    100314: Box254
+    100316: Box255
+    100318: Box256
+    100320: Box257
+    100322: Box258
+    100324: Box259
+    100326: Box260
+    100328: Box261
+    100330: Box262
+    100332: Box263
+    100334: Box264
+    100336: Box265
+    100338: Box266
+    100340: Box267
+    100342: Box268
+    100344: Box269
+    100346: Box270
+    100348: Box271
+    100350: Box272
+    100352: Box273
+    100354: Box274
+    100356: Box275
+    100358: Box276
+    100360: Box277
+    100362: Box278
+    100364: Box279
+    100366: Box280
+    100368: Box281
+    100370: Box282
+    100372: Box283
+    100374: Box284
+    100376: Box285
+    100378: Box286
+    100380: Box287
+    100382: Box288
+    100384: Box289
+    100386: Box290
+    100388: Box291
+    100390: Box292
+    100392: Box293
+    100394: Box294
+    100396: Box295
+    100398: Box296
+    100400: Box297
+    100402: Box298
+    100404: Box299
+    100406: Box300
+    100408: Box301
+    100410: Box302
+    100412: Box303
+    100414: Box304
+    100416: Box305
+    100418: Box306
+    100420: Box307
+    100422: "Bygning v\xE6gge v1_01"
+    100424: "Bygning v\xE6gge v1_02"
+    100426: "Bygning v\xE6gge v1_03"
+    100428: "Bygning v\xE6gge v1_04"
+    100430: "Bygning v\xE6gge v1_05"
+    100432: "Bygning v\xE6gge v1_06"
+    100434: "Bygning v\xE6gge v1_07"
+    100436: "Bygning v\xE6gge v1_08"
+    100438: "Bygning v\xE6gge v1_081"
+    100440: "Bygning v\xE6gge v1_082"
+    100442: "Bygning v\xE6gge v1_09"
+    100444: "Bygning v\xE6gge v1_10"
+    100446: "Bygning v\xE6gge v1_11"
+    100448: "Bygning v\xE6gge v1_12"
+    100450: "Bygning v\xE6gge v1_13"
+    100452: "Bygning v\xE6gge v1_14"
+    100454: "Bygning v\xE6gge v1_15"
+    100456: "Bygning v\xE6gge v1_16"
+    100458: "Bygning v\xE6gge v1_17"
+    100460: "Bygning v\xE6gge v1_18"
+    100462: "Bygning v\xE6gge v1_19"
+    100464: "Bygning v\xE6gge v1_20"
+    100466: "Bygning v\xE6gge v1_21"
+    100468: "Bygning v\xE6gge v1_22"
+    100470: "Bygning v\xE6gge v1_23"
+    100472: "Bygning v\xE6gge v1_24"
+    100474: "Bygning v\xE6gge v1_25"
+    100476: "Bygning v\xE6gge v1_26"
+    100478: "Bygning v\xE6gge v1_27"
+    100480: "Bygning v\xE6gge v1_28"
+    100482: "Bygning v\xE6gge v1_29"
+    100484: "Bygning v\xE6gge v1_30"
+    100486: "Bygning v\xE6gge v1_31"
+    100488: "Bygning v\xE6gge v1_32"
+    100490: "Bygning v\xE6gge v1_33"
+    100492: "Bygning v\xE6gge v1_34"
+    100494: "Bygning v\xE6gge v1_35"
+    100496: "Bygning v\xE6gge v1_36"
+    100498: "Bygning v\xE6gge v1_37"
+    100500: "Bygning v\xE6gge v1_38"
+    100502: "Bygning v\xE6gge v1_39"
+    100504: "Bygning v\xE6gge v1_40"
+    100506: "Bygning v\xE6gge v1_41"
+    100508: "Bygning v\xE6gge v1_42"
+    100510: "Bygning v\xE6gge v1_43"
+    100512: "Bygning v\xE6gge v1_44"
+    100514: "Bygning v\xE6gge v1_45"
+    100516: "Bygning v\xE6gge v1_46"
+    100518: "Bygning v\xE6gge v1_47"
+    100520: "Bygning v\xE6gge v1_48"
+    100522: "Bygning v\xE6gge v1_49"
+    100524: "Bygning v\xE6gge v1_50"
+    100526: "Bygning v\xE6gge v1_51"
+    100528: "Bygning v\xE6gge v1_52"
+    100530: "Bygning v\xE6gge v1_53"
+    100532: "Bygning v\xE6gge v1_54"
+    100534: "Bygning v\xE6gge v1_55"
+    100536: "Bygning v\xE6gge v1_56"
+    100538: "Bygning v\xE6gge v1_57"
+    100540: "Bygning v\xE6gge v1_58"
+    100542: "Bygning v\xE6gge v1_59"
+    100544: "Bygning v\xE6gge v1_60"
+    100546: "Bygning v\xE6gge v1_61"
+    100548: "Bygning v\xE6gge v1_62"
+    100550: "Bygning v\xE6gge v1_63"
+    100552: "Bygning v\xE6gge v1_64"
+    100554: "Bygning v\xE6gge v1_65"
+    100556: "Bygning v\xE6gge v1_66"
+    100558: "Bygning v\xE6gge v1_67"
+    100560: "Bygning v\xE6gge v1_68"
+    100562: "Bygning v\xE6gge v1_69"
+    100564: "Bygning v\xE6gge v1_70"
+    100566: "Bygning v\xE6gge v1_71"
+    100568: "Bygning v\xE6gge v1_72"
+    100570: "Bygning v\xE6gge v1_73"
+    100572: "Bygning v\xE6gge v1_74"
+    100574: "Bygning v\xE6gge v1_78"
+    100576: "Bygning v\xE6gge v1_79"
+    100578: "Bygning v\xE6gge v1_80"
+    100580: chairset 001
+    100582: chairset 002
+    100584: chairset 003
+    100586: chairset 004
+    100588: Cylinder001
+    100590: Cylinder002
+    100592: Cylinder003
+    100594: Cylinder004
+    100596: Cylinder005
+    100598: Cylinder013
+    100600: Cylinder014
+    100602: Cylinder015
+    100604: Cylinder016
+    100606: Cylinder017
+    100608: Cylinder018
+    100610: Cylinder019
+    100612: Cylinder020
+    100614: Cylinder021
+    100616: Cylinder022
+    100618: Cylinder023
+    100620: Cylinder024
+    100622: Cylinder025
+    100624: Cylinder026
+    100626: Cylinder027
+    100628: Elevator shaft
+    100630: Fence
+    100632: Fence001
+    100634: GlassDoor 001
+    100636: GlassDoor 003
+    100638: GlassDoor 004
+    100640: Guard end
+    100642: Guard end001
+    100644: Guard end002
+    100646: Guard end003
+    100648: Guard end004
+    100650: Guard end005
+    100652: Guard end006
+    100654: Guard end007
+    100656: Guard end008
+    100658: Guard end009
+    100660: Guard end010
+    100662: Guard end011
+    100664: Guard end012
+    100666: Guard end013
+    100668: Guard end014
+    100670: Guard end016
+    100672: Guard end017
+    100674: Guard end018
+    100676: Guard end019
+    100678: Guard end020
+    100680: Guard end022
+    100682: Guard end023
+    100684: Guard end024
+    100686: Guard end025
+    100688: Guard end026
+    100690: Guard end027
+    100692: Guard end028
+    100694: Guard end029
+    100696: Guard end030
+    100698: Guard end031
+    100700: Guard end032
+    100702: Guard end033
+    100704: Guard end034
+    100706: Guard end035
+    100708: Guard end036
+    100710: Guard end037
+    100712: Guard end038
+    100714: Guard end039
+    100716: Guard end040
+    100718: Guard end041
+    100720: Guard end042
+    100722: Guard end043
+    100724: Guard end044
+    100726: Guard end045
+    100728: Guard end046
+    100730: Guard end047
+    100732: Guard end048
+    100734: Guard end049
+    100736: Guard end050
+    100738: Guard end051
+    100740: Guard end052
+    100742: Guard end053
+    100744: Guard end054
+    100746: Guard end055
+    100748: Guard end056
+    100750: Guard end057
+    100752: Guard end058
+    100754: Guard end059
+    100756: Guard end060
+    100758: Guard end061
+    100760: Guard end062
+    100762: Guard end063
+    100764: Guard end064
+    100766: Guard end065
+    100768: Guard end066
+    100770: Guard end067
+    100772: Guard end068
+    100774: Guard end069
+    100776: Guard end070
+    100778: Guard end071
+    100780: Guard end072
+    100782: Guard end073
+    100784: Guard end074
+    100786: Guard end075
+    100788: Guard end076
+    100790: Guard end077
+    100792: Guard end078
+    100794: Guard end079
+    100796: Guard end080
+    100798: Guard end081
+    100800: Guard end082
+    100802: Guard start
+    100804: Guard start001
+    100806: Guard start002
+    100808: Guard start003
+    100810: Guard start004
+    100812: Guard start005
+    100814: //RootNode
+    100816: Line001
+    100818: Line001 1
+    100820: Line001 2
+    100822: Line002
+    100824: Line002 1
+    100826: Line003
+    100828: Line004
+    100830: Line005
+    100832: Line006
+    100834: Line007
+    100836: Line008
+    100838: Line009
+    100840: Line010
+    100842: Line011
+    100844: Line012
+    100846: Line013
+    100848: Line014
+    100850: Line015
+    100852: Line016
+    100854: Line017
+    100856: Line018
+    100858: Line019
+    100860: Line020
+    100862: Line021
+    100864: Line022
+    100866: Line023
+    100868: Line024
+    100870: Line025
+    100872: Line026
+    100874: Line027
+    100876: Line028
+    100878: Line029
+    100880: Line030
+    100882: Line031
+    100884: Line032
+    100886: Line038
+    100888: Line039
+    100890: Line040
+    100892: Line041
+    100894: Midway guard001
+    100896: Midway guard002
+    100898: Midway platform 002
+    100900: Midway platform 003
+    100902: Midway platform 1
+    100904: Object001
+    100906: Plane001
+    100908: Plane002
+    100910: roof
+    100912: Step
+    100914: Step001
+    100916: Step002
+    100918: Step003
+    100920: Step004
+    100922: Step005
+    100924: Step006
+    100926: Step007
+    100928: Step008
+    100930: Step009
+    100932: Step010
+    100934: Step011
+    100936: Step012
+    100938: Step013
+    100940: Step014
+    100942: Step015
+    100944: Step016
+    100946: Step017
+    100948: Step018
+    100950: Step019
+    100952: Step020
+    100954: Step021
+    100956: Step022
+    100958: Step023
+    100960: Step024
+    100962: Step025
+    100964: Step026
+    100966: Step027
+    100968: Step028
+    100970: Step029
+    100972: Step036
+    100974: Step037
+    100976: Step038
+    100978: Step039
+    100980: Step040
+    100982: Step041
+    100984: Step042
+    100986: Step043
+    100988: Step044
+    100990: Step045
+    100992: Step046
+    100994: Step047
+    100996: Step048
+    100998: Step049
+    101000: Steps
+    101002: Steps001
+    101004: Steps002
+    101006: Steps003
+    101008: Steps004
+    101010: Steps006
+    101012: Steps007
+    400000: 1st floor
+    400002: 2nd floor
+    400004: 3rd floor
+    400006: basement
+    400008: Box001
+    400010: Box001 1
+    400012: Box0010
+    400014: Box002
+    400016: Box002 1
+    400018: Box0020
+    400020: Box003
+    400022: Box003 1
+    400024: Box003 2
+    400026: Box004
+    400028: Box004 1
+    400030: Box004 2
+    400032: Box005
+    400034: Box005 1
+    400036: Box005 2
+    400038: Box006
+    400040: Box006 1
+    400042: Box006 2
+    400044: Box007
+    400046: Box007 1
+    400048: Box007 2
+    400050: Box008
+    400052: Box0080
+    400054: Box009
+    400056: Box0090
+    400058: Box010
+    400060: Box010 1
+    400062: Box011
+    400064: Box012
+    400066: Box012 1
+    400068: Box013
+    400070: Box013 1
+    400072: Box014
+    400074: Box014 1
+    400076: Box015
+    400078: Box0150
+    400080: Box016
+    400082: Box017
+    400084: Box017 1
+    400086: Box018
+    400088: Box018 1
+    400090: Box019
+    400092: Box019 1
+    400094: Box020
+    400096: Box020 1
+    400098: Box021
+    400100: Box136
+    400102: Box137
+    400104: Box138
+    400106: Box139
+    400108: Box140
+    400110: Box141
+    400112: Box142
+    400114: Box143
+    400116: Box144
+    400118: Box145
+    400120: Box146
+    400122: Box147
+    400124: Box148
+    400126: Box149
+    400128: Box150
+    400130: Box151
+    400132: Box152
+    400134: Box153
+    400136: Box154
+    400138: Box155
+    400140: Box156
+    400142: Box161
+    400144: Box162
+    400146: Box164
+    400148: Box165
+    400150: Box166
+    400152: Box169
+    400154: Box170
+    400156: Box171
+    400158: Box172
+    400160: Box173
+    400162: Box174
+    400164: Box175
+    400166: Box176
+    400168: Box177
+    400170: Box178
+    400172: Box179
+    400174: Box180
+    400176: Box181
+    400178: Box182
+    400180: Box183
+    400182: Box184
+    400184: Box185
+    400186: Box186
+    400188: Box187
+    400190: Box188
+    400192: Box189
+    400194: Box190
+    400196: Box191
+    400198: Box192
+    400200: Box193
+    400202: Box194
+    400204: Box198
+    400206: Box199
+    400208: Box200
+    400210: Box201
+    400212: Box202
+    400214: Box203
+    400216: Box204
+    400218: Box205
+    400220: Box206
+    400222: Box207
+    400224: Box208
+    400226: Box209
+    400228: Box210
+    400230: Box211
+    400232: Box212
+    400234: Box213
+    400236: Box214
+    400238: Box215
+    400240: Box216
+    400242: Box217
+    400244: Box218
+    400246: Box219
+    400248: Box220
+    400250: Box221
+    400252: Box222
+    400254: Box223
+    400256: Box224
+    400258: Box225
+    400260: Box226
+    400262: Box227
+    400264: Box228
+    400266: Box229
+    400268: Box230
+    400270: Box231
+    400272: Box232
+    400274: Box234
+    400276: Box235
+    400278: Box236
+    400280: Box237
+    400282: Box238
+    400284: Box239
+    400286: Box240
+    400288: Box241
+    400290: Box242
+    400292: Box243
+    400294: Box244
+    400296: Box245
+    400298: Box246
+    400300: Box247
+    400302: Box248
+    400304: Box249
+    400306: Box250
+    400308: Box251
+    400310: Box252
+    400312: Box253
+    400314: Box254
+    400316: Box255
+    400318: Box256
+    400320: Box257
+    400322: Box258
+    400324: Box259
+    400326: Box260
+    400328: Box261
+    400330: Box262
+    400332: Box263
+    400334: Box264
+    400336: Box265
+    400338: Box266
+    400340: Box267
+    400342: Box268
+    400344: Box269
+    400346: Box270
+    400348: Box271
+    400350: Box272
+    400352: Box273
+    400354: Box274
+    400356: Box275
+    400358: Box276
+    400360: Box277
+    400362: Box278
+    400364: Box279
+    400366: Box280
+    400368: Box281
+    400370: Box282
+    400372: Box283
+    400374: Box284
+    400376: Box285
+    400378: Box286
+    400380: Box287
+    400382: Box288
+    400384: Box289
+    400386: Box290
+    400388: Box291
+    400390: Box292
+    400392: Box293
+    400394: Box294
+    400396: Box295
+    400398: Box296
+    400400: Box297
+    400402: Box298
+    400404: Box299
+    400406: Box300
+    400408: Box301
+    400410: Box302
+    400412: Box303
+    400414: Box304
+    400416: Box305
+    400418: Box306
+    400420: Box307
+    400422: "Bygning v\xE6gge v1_01"
+    400424: "Bygning v\xE6gge v1_02"
+    400426: "Bygning v\xE6gge v1_03"
+    400428: "Bygning v\xE6gge v1_04"
+    400430: "Bygning v\xE6gge v1_05"
+    400432: "Bygning v\xE6gge v1_06"
+    400434: "Bygning v\xE6gge v1_07"
+    400436: "Bygning v\xE6gge v1_08"
+    400438: "Bygning v\xE6gge v1_081"
+    400440: "Bygning v\xE6gge v1_082"
+    400442: "Bygning v\xE6gge v1_09"
+    400444: "Bygning v\xE6gge v1_10"
+    400446: "Bygning v\xE6gge v1_11"
+    400448: "Bygning v\xE6gge v1_12"
+    400450: "Bygning v\xE6gge v1_13"
+    400452: "Bygning v\xE6gge v1_14"
+    400454: "Bygning v\xE6gge v1_15"
+    400456: "Bygning v\xE6gge v1_16"
+    400458: "Bygning v\xE6gge v1_17"
+    400460: "Bygning v\xE6gge v1_18"
+    400462: "Bygning v\xE6gge v1_19"
+    400464: "Bygning v\xE6gge v1_20"
+    400466: "Bygning v\xE6gge v1_21"
+    400468: "Bygning v\xE6gge v1_22"
+    400470: "Bygning v\xE6gge v1_23"
+    400472: "Bygning v\xE6gge v1_24"
+    400474: "Bygning v\xE6gge v1_25"
+    400476: "Bygning v\xE6gge v1_26"
+    400478: "Bygning v\xE6gge v1_27"
+    400480: "Bygning v\xE6gge v1_28"
+    400482: "Bygning v\xE6gge v1_29"
+    400484: "Bygning v\xE6gge v1_30"
+    400486: "Bygning v\xE6gge v1_31"
+    400488: "Bygning v\xE6gge v1_32"
+    400490: "Bygning v\xE6gge v1_33"
+    400492: "Bygning v\xE6gge v1_34"
+    400494: "Bygning v\xE6gge v1_35"
+    400496: "Bygning v\xE6gge v1_36"
+    400498: "Bygning v\xE6gge v1_37"
+    400500: "Bygning v\xE6gge v1_38"
+    400502: "Bygning v\xE6gge v1_39"
+    400504: "Bygning v\xE6gge v1_40"
+    400506: "Bygning v\xE6gge v1_41"
+    400508: "Bygning v\xE6gge v1_42"
+    400510: "Bygning v\xE6gge v1_43"
+    400512: "Bygning v\xE6gge v1_44"
+    400514: "Bygning v\xE6gge v1_45"
+    400516: "Bygning v\xE6gge v1_46"
+    400518: "Bygning v\xE6gge v1_47"
+    400520: "Bygning v\xE6gge v1_48"
+    400522: "Bygning v\xE6gge v1_49"
+    400524: "Bygning v\xE6gge v1_50"
+    400526: "Bygning v\xE6gge v1_51"
+    400528: "Bygning v\xE6gge v1_52"
+    400530: "Bygning v\xE6gge v1_53"
+    400532: "Bygning v\xE6gge v1_54"
+    400534: "Bygning v\xE6gge v1_55"
+    400536: "Bygning v\xE6gge v1_56"
+    400538: "Bygning v\xE6gge v1_57"
+    400540: "Bygning v\xE6gge v1_58"
+    400542: "Bygning v\xE6gge v1_59"
+    400544: "Bygning v\xE6gge v1_60"
+    400546: "Bygning v\xE6gge v1_61"
+    400548: "Bygning v\xE6gge v1_62"
+    400550: "Bygning v\xE6gge v1_63"
+    400552: "Bygning v\xE6gge v1_64"
+    400554: "Bygning v\xE6gge v1_65"
+    400556: "Bygning v\xE6gge v1_66"
+    400558: "Bygning v\xE6gge v1_67"
+    400560: "Bygning v\xE6gge v1_68"
+    400562: "Bygning v\xE6gge v1_69"
+    400564: "Bygning v\xE6gge v1_70"
+    400566: "Bygning v\xE6gge v1_71"
+    400568: "Bygning v\xE6gge v1_72"
+    400570: "Bygning v\xE6gge v1_73"
+    400572: "Bygning v\xE6gge v1_74"
+    400574: "Bygning v\xE6gge v1_78"
+    400576: "Bygning v\xE6gge v1_79"
+    400578: "Bygning v\xE6gge v1_80"
+    400580: chairset 001
+    400582: chairset 002
+    400584: chairset 003
+    400586: chairset 004
+    400588: Cylinder001
+    400590: Cylinder002
+    400592: Cylinder003
+    400594: Cylinder004
+    400596: Cylinder005
+    400598: Cylinder013
+    400600: Cylinder014
+    400602: Cylinder015
+    400604: Cylinder016
+    400606: Cylinder017
+    400608: Cylinder018
+    400610: Cylinder019
+    400612: Cylinder020
+    400614: Cylinder021
+    400616: Cylinder022
+    400618: Cylinder023
+    400620: Cylinder024
+    400622: Cylinder025
+    400624: Cylinder026
+    400626: Cylinder027
+    400628: Elevator shaft
+    400630: Fence
+    400632: Fence001
+    400634: GlassDoor 001
+    400636: GlassDoor 003
+    400638: GlassDoor 004
+    400640: Guard end
+    400642: Guard end001
+    400644: Guard end002
+    400646: Guard end003
+    400648: Guard end004
+    400650: Guard end005
+    400652: Guard end006
+    400654: Guard end007
+    400656: Guard end008
+    400658: Guard end009
+    400660: Guard end010
+    400662: Guard end011
+    400664: Guard end012
+    400666: Guard end013
+    400668: Guard end014
+    400670: Guard end016
+    400672: Guard end017
+    400674: Guard end018
+    400676: Guard end019
+    400678: Guard end020
+    400680: Guard end022
+    400682: Guard end023
+    400684: Guard end024
+    400686: Guard end025
+    400688: Guard end026
+    400690: Guard end027
+    400692: Guard end028
+    400694: Guard end029
+    400696: Guard end030
+    400698: Guard end031
+    400700: Guard end032
+    400702: Guard end033
+    400704: Guard end034
+    400706: Guard end035
+    400708: Guard end036
+    400710: Guard end037
+    400712: Guard end038
+    400714: Guard end039
+    400716: Guard end040
+    400718: Guard end041
+    400720: Guard end042
+    400722: Guard end043
+    400724: Guard end044
+    400726: Guard end045
+    400728: Guard end046
+    400730: Guard end047
+    400732: Guard end048
+    400734: Guard end049
+    400736: Guard end050
+    400738: Guard end051
+    400740: Guard end052
+    400742: Guard end053
+    400744: Guard end054
+    400746: Guard end055
+    400748: Guard end056
+    400750: Guard end057
+    400752: Guard end058
+    400754: Guard end059
+    400756: Guard end060
+    400758: Guard end061
+    400760: Guard end062
+    400762: Guard end063
+    400764: Guard end064
+    400766: Guard end065
+    400768: Guard end066
+    400770: Guard end067
+    400772: Guard end068
+    400774: Guard end069
+    400776: Guard end070
+    400778: Guard end071
+    400780: Guard end072
+    400782: Guard end073
+    400784: Guard end074
+    400786: Guard end075
+    400788: Guard end076
+    400790: Guard end077
+    400792: Guard end078
+    400794: Guard end079
+    400796: Guard end080
+    400798: Guard end081
+    400800: Guard end082
+    400802: Guard start
+    400804: Guard start001
+    400806: Guard start002
+    400808: Guard start003
+    400810: Guard start004
+    400812: Guard start005
+    400814: //RootNode
+    400816: Line001
+    400818: Line001 1
+    400820: Line001 2
+    400822: Line002
+    400824: Line002 1
+    400826: Line003
+    400828: Line004
+    400830: Line005
+    400832: Line006
+    400834: Line007
+    400836: Line008
+    400838: Line009
+    400840: Line010
+    400842: Line011
+    400844: Line012
+    400846: Line013
+    400848: Line014
+    400850: Line015
+    400852: Line016
+    400854: Line017
+    400856: Line018
+    400858: Line019
+    400860: Line020
+    400862: Line021
+    400864: Line022
+    400866: Line023
+    400868: Line024
+    400870: Line025
+    400872: Line026
+    400874: Line027
+    400876: Line028
+    400878: Line029
+    400880: Line030
+    400882: Line031
+    400884: Line032
+    400886: Line038
+    400888: Line039
+    400890: Line040
+    400892: Line041
+    400894: Midway guard001
+    400896: Midway guard002
+    400898: Midway platform 002
+    400900: Midway platform 003
+    400902: Midway platform 1
+    400904: Object001
+    400906: Plane001
+    400908: Plane002
+    400910: roof
+    400912: Step
+    400914: Step001
+    400916: Step002
+    400918: Step003
+    400920: Step004
+    400922: Step005
+    400924: Step006
+    400926: Step007
+    400928: Step008
+    400930: Step009
+    400932: Step010
+    400934: Step011
+    400936: Step012
+    400938: Step013
+    400940: Step014
+    400942: Step015
+    400944: Step016
+    400946: Step017
+    400948: Step018
+    400950: Step019
+    400952: Step020
+    400954: Step021
+    400956: Step022
+    400958: Step023
+    400960: Step024
+    400962: Step025
+    400964: Step026
+    400966: Step027
+    400968: Step028
+    400970: Step029
+    400972: Step036
+    400974: Step037
+    400976: Step038
+    400978: Step039
+    400980: Step040
+    400982: Step041
+    400984: Step042
+    400986: Step043
+    400988: Step044
+    400990: Step045
+    400992: Step046
+    400994: Step047
+    400996: Step048
+    400998: Step049
+    401000: Steps
+    401002: Steps001
+    401004: Steps002
+    401006: Steps003
+    401008: Steps004
+    401010: Steps006
+    401012: Steps007
+    2100000: No Name
+    2300000: Box001
+    2300002: Box001 1
+    2300004: Box0010
+    2300006: Box002
+    2300008: Box002 1
+    2300010: Box0020
+    2300012: Box003
+    2300014: Box003 1
+    2300016: Box003 2
+    2300018: Box004
+    2300020: Box004 1
+    2300022: Box004 2
+    2300024: Box005
+    2300026: Box005 1
+    2300028: Box005 2
+    2300030: Box006
+    2300032: Box006 1
+    2300034: Box006 2
+    2300036: Box007
+    2300038: Box007 1
+    2300040: Box007 2
+    2300042: Box008
+    2300044: Box0080
+    2300046: Box009
+    2300048: Box0090
+    2300050: Box010
+    2300052: Box010 1
+    2300054: Box011
+    2300056: Box012
+    2300058: Box012 1
+    2300060: Box013
+    2300062: Box013 1
+    2300064: Box014
+    2300066: Box014 1
+    2300068: Box015
+    2300070: Box0150
+    2300072: Box016
+    2300074: Box017
+    2300076: Box017 1
+    2300078: Box018
+    2300080: Box018 1
+    2300082: Box019
+    2300084: Box019 1
+    2300086: Box020
+    2300088: Box020 1
+    2300090: Box021
+    2300092: Box136
+    2300094: Box137
+    2300096: Box138
+    2300098: Box139
+    2300100: Box140
+    2300102: Box141
+    2300104: Box142
+    2300106: Box143
+    2300108: Box144
+    2300110: Box145
+    2300112: Box146
+    2300114: Box147
+    2300116: Box148
+    2300118: Box149
+    2300120: Box150
+    2300122: Box151
+    2300124: Box152
+    2300126: Box153
+    2300128: Box154
+    2300130: Box155
+    2300132: Box156
+    2300134: Box161
+    2300136: Box162
+    2300138: Box164
+    2300140: Box165
+    2300142: Box166
+    2300144: Box169
+    2300146: Box170
+    2300148: Box171
+    2300150: Box172
+    2300152: Box173
+    2300154: Box174
+    2300156: Box175
+    2300158: Box176
+    2300160: Box177
+    2300162: Box178
+    2300164: Box179
+    2300166: Box180
+    2300168: Box181
+    2300170: Box182
+    2300172: Box183
+    2300174: Box184
+    2300176: Box185
+    2300178: Box186
+    2300180: Box187
+    2300182: Box188
+    2300184: Box189
+    2300186: Box190
+    2300188: Box191
+    2300190: Box192
+    2300192: Box193
+    2300194: Box194
+    2300196: Box198
+    2300198: Box199
+    2300200: Box200
+    2300202: Box201
+    2300204: Box202
+    2300206: Box203
+    2300208: Box204
+    2300210: Box205
+    2300212: Box206
+    2300214: Box207
+    2300216: Box208
+    2300218: Box209
+    2300220: Box210
+    2300222: Box211
+    2300224: Box212
+    2300226: Box213
+    2300228: Box214
+    2300230: Box215
+    2300232: Box216
+    2300234: Box217
+    2300236: Box218
+    2300238: Box219
+    2300240: Box220
+    2300242: Box221
+    2300244: Box222
+    2300246: Box223
+    2300248: Box224
+    2300250: Box225
+    2300252: Box226
+    2300254: Box227
+    2300256: Box228
+    2300258: Box229
+    2300260: Box230
+    2300262: Box231
+    2300264: Box232
+    2300266: Box234
+    2300268: Box235
+    2300270: Box236
+    2300272: Box237
+    2300274: Box238
+    2300276: Box239
+    2300278: Box240
+    2300280: Box241
+    2300282: Box242
+    2300284: Box243
+    2300286: Box244
+    2300288: Box245
+    2300290: Box246
+    2300292: Box247
+    2300294: Box248
+    2300296: Box249
+    2300298: Box250
+    2300300: Box251
+    2300302: Box252
+    2300304: Box253
+    2300306: Box254
+    2300308: Box255
+    2300310: Box256
+    2300312: Box257
+    2300314: Box258
+    2300316: Box259
+    2300318: Box260
+    2300320: Box261
+    2300322: Box262
+    2300324: Box263
+    2300326: Box264
+    2300328: Box265
+    2300330: Box266
+    2300332: Box267
+    2300334: Box268
+    2300336: Box269
+    2300338: Box270
+    2300340: Box271
+    2300342: Box272
+    2300344: Box273
+    2300346: Box274
+    2300348: Box275
+    2300350: Box276
+    2300352: Box277
+    2300354: Box278
+    2300356: Box279
+    2300358: Box280
+    2300360: Box281
+    2300362: Box282
+    2300364: Box283
+    2300366: Box284
+    2300368: Box285
+    2300370: Box286
+    2300372: Box287
+    2300374: Box288
+    2300376: Box289
+    2300378: Box290
+    2300380: Box291
+    2300382: Box292
+    2300384: Box293
+    2300386: Box294
+    2300388: Box295
+    2300390: Box296
+    2300392: Box297
+    2300394: Box298
+    2300396: Box299
+    2300398: Box300
+    2300400: Box301
+    2300402: Box302
+    2300404: Box303
+    2300406: Box304
+    2300408: Box305
+    2300410: Box306
+    2300412: Box307
+    2300414: "Bygning v\xE6gge v1_01"
+    2300416: "Bygning v\xE6gge v1_02"
+    2300418: "Bygning v\xE6gge v1_03"
+    2300420: "Bygning v\xE6gge v1_04"
+    2300422: "Bygning v\xE6gge v1_05"
+    2300424: "Bygning v\xE6gge v1_06"
+    2300426: "Bygning v\xE6gge v1_07"
+    2300428: "Bygning v\xE6gge v1_08"
+    2300430: "Bygning v\xE6gge v1_081"
+    2300432: "Bygning v\xE6gge v1_082"
+    2300434: "Bygning v\xE6gge v1_09"
+    2300436: "Bygning v\xE6gge v1_10"
+    2300438: "Bygning v\xE6gge v1_11"
+    2300440: "Bygning v\xE6gge v1_12"
+    2300442: "Bygning v\xE6gge v1_13"
+    2300444: "Bygning v\xE6gge v1_14"
+    2300446: "Bygning v\xE6gge v1_15"
+    2300448: "Bygning v\xE6gge v1_16"
+    2300450: "Bygning v\xE6gge v1_17"
+    2300452: "Bygning v\xE6gge v1_18"
+    2300454: "Bygning v\xE6gge v1_19"
+    2300456: "Bygning v\xE6gge v1_20"
+    2300458: "Bygning v\xE6gge v1_21"
+    2300460: "Bygning v\xE6gge v1_22"
+    2300462: "Bygning v\xE6gge v1_23"
+    2300464: "Bygning v\xE6gge v1_24"
+    2300466: "Bygning v\xE6gge v1_25"
+    2300468: "Bygning v\xE6gge v1_26"
+    2300470: "Bygning v\xE6gge v1_27"
+    2300472: "Bygning v\xE6gge v1_28"
+    2300474: "Bygning v\xE6gge v1_29"
+    2300476: "Bygning v\xE6gge v1_30"
+    2300478: "Bygning v\xE6gge v1_31"
+    2300480: "Bygning v\xE6gge v1_32"
+    2300482: "Bygning v\xE6gge v1_33"
+    2300484: "Bygning v\xE6gge v1_34"
+    2300486: "Bygning v\xE6gge v1_35"
+    2300488: "Bygning v\xE6gge v1_36"
+    2300490: "Bygning v\xE6gge v1_37"
+    2300492: "Bygning v\xE6gge v1_38"
+    2300494: "Bygning v\xE6gge v1_39"
+    2300496: "Bygning v\xE6gge v1_40"
+    2300498: "Bygning v\xE6gge v1_41"
+    2300500: "Bygning v\xE6gge v1_42"
+    2300502: "Bygning v\xE6gge v1_43"
+    2300504: "Bygning v\xE6gge v1_44"
+    2300506: "Bygning v\xE6gge v1_45"
+    2300508: "Bygning v\xE6gge v1_46"
+    2300510: "Bygning v\xE6gge v1_47"
+    2300512: "Bygning v\xE6gge v1_48"
+    2300514: "Bygning v\xE6gge v1_49"
+    2300516: "Bygning v\xE6gge v1_50"
+    2300518: "Bygning v\xE6gge v1_51"
+    2300520: "Bygning v\xE6gge v1_52"
+    2300522: "Bygning v\xE6gge v1_53"
+    2300524: "Bygning v\xE6gge v1_54"
+    2300526: "Bygning v\xE6gge v1_55"
+    2300528: "Bygning v\xE6gge v1_56"
+    2300530: "Bygning v\xE6gge v1_57"
+    2300532: "Bygning v\xE6gge v1_58"
+    2300534: "Bygning v\xE6gge v1_59"
+    2300536: "Bygning v\xE6gge v1_60"
+    2300538: "Bygning v\xE6gge v1_61"
+    2300540: "Bygning v\xE6gge v1_62"
+    2300542: "Bygning v\xE6gge v1_63"
+    2300544: "Bygning v\xE6gge v1_64"
+    2300546: "Bygning v\xE6gge v1_65"
+    2300548: "Bygning v\xE6gge v1_66"
+    2300550: "Bygning v\xE6gge v1_67"
+    2300552: "Bygning v\xE6gge v1_68"
+    2300554: "Bygning v\xE6gge v1_69"
+    2300556: "Bygning v\xE6gge v1_70"
+    2300558: "Bygning v\xE6gge v1_71"
+    2300560: "Bygning v\xE6gge v1_72"
+    2300562: "Bygning v\xE6gge v1_73"
+    2300564: "Bygning v\xE6gge v1_74"
+    2300566: "Bygning v\xE6gge v1_78"
+    2300568: "Bygning v\xE6gge v1_79"
+    2300570: "Bygning v\xE6gge v1_80"
+    2300572: Cylinder001
+    2300574: Cylinder002
+    2300576: Cylinder003
+    2300578: Cylinder004
+    2300580: Cylinder005
+    2300582: Cylinder013
+    2300584: Cylinder014
+    2300586: Cylinder015
+    2300588: Cylinder016
+    2300590: Cylinder017
+    2300592: Cylinder018
+    2300594: Cylinder019
+    2300596: Cylinder020
+    2300598: Cylinder021
+    2300600: Cylinder022
+    2300602: Cylinder023
+    2300604: Cylinder024
+    2300606: Cylinder025
+    2300608: Cylinder026
+    2300610: Cylinder027
+    2300612: Elevator shaft
+    2300614: Guard end
+    2300616: Guard end001
+    2300618: Guard end002
+    2300620: Guard end003
+    2300622: Guard end004
+    2300624: Guard end005
+    2300626: Guard end006
+    2300628: Guard end007
+    2300630: Guard end008
+    2300632: Guard end009
+    2300634: Guard end010
+    2300636: Guard end011
+    2300638: Guard end012
+    2300640: Guard end013
+    2300642: Guard end014
+    2300644: Guard end016
+    2300646: Guard end017
+    2300648: Guard end018
+    2300650: Guard end019
+    2300652: Guard end020
+    2300654: Guard end022
+    2300656: Guard end023
+    2300658: Guard end024
+    2300660: Guard end025
+    2300662: Guard end026
+    2300664: Guard end027
+    2300666: Guard end028
+    2300668: Guard end029
+    2300670: Guard end030
+    2300672: Guard end031
+    2300674: Guard end032
+    2300676: Guard end033
+    2300678: Guard end034
+    2300680: Guard end035
+    2300682: Guard end036
+    2300684: Guard end037
+    2300686: Guard end038
+    2300688: Guard end039
+    2300690: Guard end040
+    2300692: Guard end041
+    2300694: Guard end042
+    2300696: Guard end043
+    2300698: Guard end044
+    2300700: Guard end045
+    2300702: Guard end046
+    2300704: Guard end047
+    2300706: Guard end048
+    2300708: Guard end049
+    2300710: Guard end050
+    2300712: Guard end051
+    2300714: Guard end052
+    2300716: Guard end053
+    2300718: Guard end054
+    2300720: Guard end055
+    2300722: Guard end056
+    2300724: Guard end057
+    2300726: Guard end058
+    2300728: Guard end059
+    2300730: Guard end060
+    2300732: Guard end061
+    2300734: Guard end062
+    2300736: Guard end063
+    2300738: Guard end064
+    2300740: Guard end065
+    2300742: Guard end066
+    2300744: Guard end067
+    2300746: Guard end068
+    2300748: Guard end069
+    2300750: Guard end070
+    2300752: Guard end071
+    2300754: Guard end072
+    2300756: Guard end073
+    2300758: Guard end074
+    2300760: Guard end075
+    2300762: Guard end076
+    2300764: Guard end077
+    2300766: Guard end078
+    2300768: Guard end079
+    2300770: Guard end080
+    2300772: Guard end081
+    2300774: Guard end082
+    2300776: Guard start
+    2300778: Guard start001
+    2300780: Guard start002
+    2300782: Guard start003
+    2300784: Guard start004
+    2300786: Guard start005
+    2300788: Line001 1
+    2300790: Line001 2
+    2300792: Line002
+    2300794: Line002 1
+    2300796: Line003
+    2300798: Line004
+    2300800: Line005
+    2300802: Line006
+    2300804: Line007
+    2300806: Line008
+    2300808: Line009
+    2300810: Line010
+    2300812: Line011
+    2300814: Line012
+    2300816: Line013
+    2300818: Line014
+    2300820: Line015
+    2300822: Line016
+    2300824: Line017
+    2300826: Line018
+    2300828: Line019
+    2300830: Line020
+    2300832: Line021
+    2300834: Line022
+    2300836: Line023
+    2300838: Line024
+    2300840: Line025
+    2300842: Line026
+    2300844: Line027
+    2300846: Line028
+    2300848: Line029
+    2300850: Line030
+    2300852: Line031
+    2300854: Line032
+    2300856: Line038
+    2300858: Line039
+    2300860: Line040
+    2300862: Line041
+    2300864: Midway platform 002
+    2300866: Midway platform 003
+    2300868: Midway platform 1
+    2300870: Object001
+    2300872: Plane001
+    2300874: Plane002
+    2300876: roof
+    2300878: Step
+    2300880: Step001
+    2300882: Step002
+    2300884: Step003
+    2300886: Step004
+    2300888: Step005
+    2300890: Step006
+    2300892: Step007
+    2300894: Step008
+    2300896: Step009
+    2300898: Step010
+    2300900: Step011
+    2300902: Step012
+    2300904: Step013
+    2300906: Step014
+    2300908: Step015
+    2300910: Step016
+    2300912: Step017
+    2300914: Step018
+    2300916: Step019
+    2300918: Step020
+    2300920: Step021
+    2300922: Step022
+    2300924: Step023
+    2300926: Step024
+    2300928: Step025
+    2300930: Step026
+    2300932: Step027
+    2300934: Step028
+    2300936: Step029
+    2300938: Step036
+    2300940: Step037
+    2300942: Step038
+    2300944: Step039
+    2300946: Step040
+    2300948: Step041
+    2300950: Step042
+    2300952: Step043
+    2300954: Step044
+    2300956: Step045
+    2300958: Step046
+    2300960: Step047
+    2300962: Step048
+    2300964: Step049
+    3300000: Box001
+    3300002: Box001 1
+    3300004: Box0010
+    3300006: Box002
+    3300008: Box002 1
+    3300010: Box0020
+    3300012: Box003
+    3300014: Box003 1
+    3300016: Box003 2
+    3300018: Box004
+    3300020: Box004 1
+    3300022: Box004 2
+    3300024: Box005
+    3300026: Box005 1
+    3300028: Box005 2
+    3300030: Box006
+    3300032: Box006 1
+    3300034: Box006 2
+    3300036: Box007
+    3300038: Box007 1
+    3300040: Box007 2
+    3300042: Box008
+    3300044: Box0080
+    3300046: Box009
+    3300048: Box0090
+    3300050: Box010
+    3300052: Box010 1
+    3300054: Box011
+    3300056: Box012
+    3300058: Box012 1
+    3300060: Box013
+    3300062: Box013 1
+    3300064: Box014
+    3300066: Box014 1
+    3300068: Box015
+    3300070: Box0150
+    3300072: Box016
+    3300074: Box017
+    3300076: Box017 1
+    3300078: Box018
+    3300080: Box018 1
+    3300082: Box019
+    3300084: Box019 1
+    3300086: Box020
+    3300088: Box020 1
+    3300090: Box021
+    3300092: Box136
+    3300094: Box137
+    3300096: Box138
+    3300098: Box139
+    3300100: Box140
+    3300102: Box141
+    3300104: Box142
+    3300106: Box143
+    3300108: Box144
+    3300110: Box145
+    3300112: Box146
+    3300114: Box147
+    3300116: Box148
+    3300118: Box149
+    3300120: Box150
+    3300122: Box151
+    3300124: Box152
+    3300126: Box153
+    3300128: Box154
+    3300130: Box155
+    3300132: Box156
+    3300134: Box161
+    3300136: Box162
+    3300138: Box164
+    3300140: Box165
+    3300142: Box166
+    3300144: Box169
+    3300146: Box170
+    3300148: Box171
+    3300150: Box172
+    3300152: Box173
+    3300154: Box174
+    3300156: Box175
+    3300158: Box176
+    3300160: Box177
+    3300162: Box178
+    3300164: Box179
+    3300166: Box180
+    3300168: Box181
+    3300170: Box182
+    3300172: Box183
+    3300174: Box184
+    3300176: Box185
+    3300178: Box186
+    3300180: Box187
+    3300182: Box188
+    3300184: Box189
+    3300186: Box190
+    3300188: Box191
+    3300190: Box192
+    3300192: Box193
+    3300194: Box194
+    3300196: Box198
+    3300198: Box199
+    3300200: Box200
+    3300202: Box201
+    3300204: Box202
+    3300206: Box203
+    3300208: Box204
+    3300210: Box205
+    3300212: Box206
+    3300214: Box207
+    3300216: Box208
+    3300218: Box209
+    3300220: Box210
+    3300222: Box211
+    3300224: Box212
+    3300226: Box213
+    3300228: Box214
+    3300230: Box215
+    3300232: Box216
+    3300234: Box217
+    3300236: Box218
+    3300238: Box219
+    3300240: Box220
+    3300242: Box221
+    3300244: Box222
+    3300246: Box223
+    3300248: Box224
+    3300250: Box225
+    3300252: Box226
+    3300254: Box227
+    3300256: Box228
+    3300258: Box229
+    3300260: Box230
+    3300262: Box231
+    3300264: Box232
+    3300266: Box234
+    3300268: Box235
+    3300270: Box236
+    3300272: Box237
+    3300274: Box238
+    3300276: Box239
+    3300278: Box240
+    3300280: Box241
+    3300282: Box242
+    3300284: Box243
+    3300286: Box244
+    3300288: Box245
+    3300290: Box246
+    3300292: Box247
+    3300294: Box248
+    3300296: Box249
+    3300298: Box250
+    3300300: Box251
+    3300302: Box252
+    3300304: Box253
+    3300306: Box254
+    3300308: Box255
+    3300310: Box256
+    3300312: Box257
+    3300314: Box258
+    3300316: Box259
+    3300318: Box260
+    3300320: Box261
+    3300322: Box262
+    3300324: Box263
+    3300326: Box264
+    3300328: Box265
+    3300330: Box266
+    3300332: Box267
+    3300334: Box268
+    3300336: Box269
+    3300338: Box270
+    3300340: Box271
+    3300342: Box272
+    3300344: Box273
+    3300346: Box274
+    3300348: Box275
+    3300350: Box276
+    3300352: Box277
+    3300354: Box278
+    3300356: Box279
+    3300358: Box280
+    3300360: Box281
+    3300362: Box282
+    3300364: Box283
+    3300366: Box284
+    3300368: Box285
+    3300370: Box286
+    3300372: Box287
+    3300374: Box288
+    3300376: Box289
+    3300378: Box290
+    3300380: Box291
+    3300382: Box292
+    3300384: Box293
+    3300386: Box294
+    3300388: Box295
+    3300390: Box296
+    3300392: Box297
+    3300394: Box298
+    3300396: Box299
+    3300398: Box300
+    3300400: Box301
+    3300402: Box302
+    3300404: Box303
+    3300406: Box304
+    3300408: Box305
+    3300410: Box306
+    3300412: Box307
+    3300414: "Bygning v\xE6gge v1_01"
+    3300416: "Bygning v\xE6gge v1_02"
+    3300418: "Bygning v\xE6gge v1_03"
+    3300420: "Bygning v\xE6gge v1_04"
+    3300422: "Bygning v\xE6gge v1_05"
+    3300424: "Bygning v\xE6gge v1_06"
+    3300426: "Bygning v\xE6gge v1_07"
+    3300428: "Bygning v\xE6gge v1_08"
+    3300430: "Bygning v\xE6gge v1_081"
+    3300432: "Bygning v\xE6gge v1_082"
+    3300434: "Bygning v\xE6gge v1_09"
+    3300436: "Bygning v\xE6gge v1_10"
+    3300438: "Bygning v\xE6gge v1_11"
+    3300440: "Bygning v\xE6gge v1_12"
+    3300442: "Bygning v\xE6gge v1_13"
+    3300444: "Bygning v\xE6gge v1_14"
+    3300446: "Bygning v\xE6gge v1_15"
+    3300448: "Bygning v\xE6gge v1_16"
+    3300450: "Bygning v\xE6gge v1_17"
+    3300452: "Bygning v\xE6gge v1_18"
+    3300454: "Bygning v\xE6gge v1_19"
+    3300456: "Bygning v\xE6gge v1_20"
+    3300458: "Bygning v\xE6gge v1_21"
+    3300460: "Bygning v\xE6gge v1_22"
+    3300462: "Bygning v\xE6gge v1_23"
+    3300464: "Bygning v\xE6gge v1_24"
+    3300466: "Bygning v\xE6gge v1_25"
+    3300468: "Bygning v\xE6gge v1_26"
+    3300470: "Bygning v\xE6gge v1_27"
+    3300472: "Bygning v\xE6gge v1_28"
+    3300474: "Bygning v\xE6gge v1_29"
+    3300476: "Bygning v\xE6gge v1_30"
+    3300478: "Bygning v\xE6gge v1_31"
+    3300480: "Bygning v\xE6gge v1_32"
+    3300482: "Bygning v\xE6gge v1_33"
+    3300484: "Bygning v\xE6gge v1_34"
+    3300486: "Bygning v\xE6gge v1_35"
+    3300488: "Bygning v\xE6gge v1_36"
+    3300490: "Bygning v\xE6gge v1_37"
+    3300492: "Bygning v\xE6gge v1_38"
+    3300494: "Bygning v\xE6gge v1_39"
+    3300496: "Bygning v\xE6gge v1_40"
+    3300498: "Bygning v\xE6gge v1_41"
+    3300500: "Bygning v\xE6gge v1_42"
+    3300502: "Bygning v\xE6gge v1_43"
+    3300504: "Bygning v\xE6gge v1_44"
+    3300506: "Bygning v\xE6gge v1_45"
+    3300508: "Bygning v\xE6gge v1_46"
+    3300510: "Bygning v\xE6gge v1_47"
+    3300512: "Bygning v\xE6gge v1_48"
+    3300514: "Bygning v\xE6gge v1_49"
+    3300516: "Bygning v\xE6gge v1_50"
+    3300518: "Bygning v\xE6gge v1_51"
+    3300520: "Bygning v\xE6gge v1_52"
+    3300522: "Bygning v\xE6gge v1_53"
+    3300524: "Bygning v\xE6gge v1_54"
+    3300526: "Bygning v\xE6gge v1_55"
+    3300528: "Bygning v\xE6gge v1_56"
+    3300530: "Bygning v\xE6gge v1_57"
+    3300532: "Bygning v\xE6gge v1_58"
+    3300534: "Bygning v\xE6gge v1_59"
+    3300536: "Bygning v\xE6gge v1_60"
+    3300538: "Bygning v\xE6gge v1_61"
+    3300540: "Bygning v\xE6gge v1_62"
+    3300542: "Bygning v\xE6gge v1_63"
+    3300544: "Bygning v\xE6gge v1_64"
+    3300546: "Bygning v\xE6gge v1_65"
+    3300548: "Bygning v\xE6gge v1_66"
+    3300550: "Bygning v\xE6gge v1_67"
+    3300552: "Bygning v\xE6gge v1_68"
+    3300554: "Bygning v\xE6gge v1_69"
+    3300556: "Bygning v\xE6gge v1_70"
+    3300558: "Bygning v\xE6gge v1_71"
+    3300560: "Bygning v\xE6gge v1_72"
+    3300562: "Bygning v\xE6gge v1_73"
+    3300564: "Bygning v\xE6gge v1_74"
+    3300566: "Bygning v\xE6gge v1_78"
+    3300568: "Bygning v\xE6gge v1_79"
+    3300570: "Bygning v\xE6gge v1_80"
+    3300572: Cylinder001
+    3300574: Cylinder002
+    3300576: Cylinder003
+    3300578: Cylinder004
+    3300580: Cylinder005
+    3300582: Cylinder013
+    3300584: Cylinder014
+    3300586: Cylinder015
+    3300588: Cylinder016
+    3300590: Cylinder017
+    3300592: Cylinder018
+    3300594: Cylinder019
+    3300596: Cylinder020
+    3300598: Cylinder021
+    3300600: Cylinder022
+    3300602: Cylinder023
+    3300604: Cylinder024
+    3300606: Cylinder025
+    3300608: Cylinder026
+    3300610: Cylinder027
+    3300612: Elevator shaft
+    3300614: Guard end
+    3300616: Guard end001
+    3300618: Guard end002
+    3300620: Guard end003
+    3300622: Guard end004
+    3300624: Guard end005
+    3300626: Guard end006
+    3300628: Guard end007
+    3300630: Guard end008
+    3300632: Guard end009
+    3300634: Guard end010
+    3300636: Guard end011
+    3300638: Guard end012
+    3300640: Guard end013
+    3300642: Guard end014
+    3300644: Guard end016
+    3300646: Guard end017
+    3300648: Guard end018
+    3300650: Guard end019
+    3300652: Guard end020
+    3300654: Guard end022
+    3300656: Guard end023
+    3300658: Guard end024
+    3300660: Guard end025
+    3300662: Guard end026
+    3300664: Guard end027
+    3300666: Guard end028
+    3300668: Guard end029
+    3300670: Guard end030
+    3300672: Guard end031
+    3300674: Guard end032
+    3300676: Guard end033
+    3300678: Guard end034
+    3300680: Guard end035
+    3300682: Guard end036
+    3300684: Guard end037
+    3300686: Guard end038
+    3300688: Guard end039
+    3300690: Guard end040
+    3300692: Guard end041
+    3300694: Guard end042
+    3300696: Guard end043
+    3300698: Guard end044
+    3300700: Guard end045
+    3300702: Guard end046
+    3300704: Guard end047
+    3300706: Guard end048
+    3300708: Guard end049
+    3300710: Guard end050
+    3300712: Guard end051
+    3300714: Guard end052
+    3300716: Guard end053
+    3300718: Guard end054
+    3300720: Guard end055
+    3300722: Guard end056
+    3300724: Guard end057
+    3300726: Guard end058
+    3300728: Guard end059
+    3300730: Guard end060
+    3300732: Guard end061
+    3300734: Guard end062
+    3300736: Guard end063
+    3300738: Guard end064
+    3300740: Guard end065
+    3300742: Guard end066
+    3300744: Guard end067
+    3300746: Guard end068
+    3300748: Guard end069
+    3300750: Guard end070
+    3300752: Guard end071
+    3300754: Guard end072
+    3300756: Guard end073
+    3300758: Guard end074
+    3300760: Guard end075
+    3300762: Guard end076
+    3300764: Guard end077
+    3300766: Guard end078
+    3300768: Guard end079
+    3300770: Guard end080
+    3300772: Guard end081
+    3300774: Guard end082
+    3300776: Guard start
+    3300778: Guard start001
+    3300780: Guard start002
+    3300782: Guard start003
+    3300784: Guard start004
+    3300786: Guard start005
+    3300788: Line001 1
+    3300790: Line001 2
+    3300792: Line002
+    3300794: Line002 1
+    3300796: Line003
+    3300798: Line004
+    3300800: Line005
+    3300802: Line006
+    3300804: Line007
+    3300806: Line008
+    3300808: Line009
+    3300810: Line010
+    3300812: Line011
+    3300814: Line012
+    3300816: Line013
+    3300818: Line014
+    3300820: Line015
+    3300822: Line016
+    3300824: Line017
+    3300826: Line018
+    3300828: Line019
+    3300830: Line020
+    3300832: Line021
+    3300834: Line022
+    3300836: Line023
+    3300838: Line024
+    3300840: Line025
+    3300842: Line026
+    3300844: Line027
+    3300846: Line028
+    3300848: Line029
+    3300850: Line030
+    3300852: Line031
+    3300854: Line032
+    3300856: Line038
+    3300858: Line039
+    3300860: Line040
+    3300862: Line041
+    3300864: Midway platform 002
+    3300866: Midway platform 003
+    3300868: Midway platform 1
+    3300870: Object001
+    3300872: Plane001
+    3300874: Plane002
+    3300876: roof
+    3300878: Step
+    3300880: Step001
+    3300882: Step002
+    3300884: Step003
+    3300886: Step004
+    3300888: Step005
+    3300890: Step006
+    3300892: Step007
+    3300894: Step008
+    3300896: Step009
+    3300898: Step010
+    3300900: Step011
+    3300902: Step012
+    3300904: Step013
+    3300906: Step014
+    3300908: Step015
+    3300910: Step016
+    3300912: Step017
+    3300914: Step018
+    3300916: Step019
+    3300918: Step020
+    3300920: Step021
+    3300922: Step022
+    3300924: Step023
+    3300926: Step024
+    3300928: Step025
+    3300930: Step026
+    3300932: Step027
+    3300934: Step028
+    3300936: Step029
+    3300938: Step036
+    3300940: Step037
+    3300942: Step038
+    3300944: Step039
+    3300946: Step040
+    3300948: Step041
+    3300950: Step042
+    3300952: Step043
+    3300954: Step044
+    3300956: Step045
+    3300958: Step046
+    3300960: Step047
+    3300962: Step048
+    3300964: Step049
+    4300000: Plane001
+    4300002: Line002
+    4300004: Line003
+    4300006: Cylinder002
+    4300008: Cylinder003
+    4300010: Box001
+    4300012: Cylinder001
+    4300014: Cylinder004
+    4300016: Line004
+    4300018: Line001
+    4300020: Box002
+    4300022: Box003
+    4300024: Cylinder005
+    4300026: Line006
+    4300028: Line007
+    4300030: Line005
+    4300032: Line008
+    4300034: Line009
+    4300036: Line010
+    4300038: Cylinder013
+    4300040: Cylinder014
+    4300042: Box012
+    4300044: Cylinder015
+    4300046: Cylinder016
+    4300048: Line011
+    4300050: Line012
+    4300052: Box013
+    4300054: Box014
+    4300056: Cylinder017
+    4300058: Line013
+    4300060: Line014
+    4300062: Line015
+    4300064: Line016
+    4300066: Line017
+    4300068: Line018
+    4300070: Cylinder018
+    4300072: Cylinder019
+    4300074: Box015
+    4300076: Cylinder020
+    4300078: Cylinder021
+    4300080: Line019
+    4300082: Line020
+    4300084: Box016
+    4300086: Box017
+    4300088: Cylinder022
+    4300090: Line021
+    4300092: Line022
+    4300094: Line023
+    4300096: Line024
+    4300098: Line025
+    4300100: Line026
+    4300102: Cylinder023
+    4300104: Cylinder024
+    4300106: Box018
+    4300108: Cylinder025
+    4300110: Cylinder026
+    4300112: Line027
+    4300114: Line028
+    4300116: Box019
+    4300118: Box020
+    4300120: Cylinder027
+    4300122: Line029
+    4300124: Line030
+    4300126: Line031
+    4300128: Line032
+    4300130: Box001
+    4300132: Line001
+    4300134: Box002
+    4300136: Box003
+    4300138: Box004
+    4300140: Box005
+    4300142: Box006
+    4300144: Line002
+    4300146: Box007
+    4300148: Box008
+    4300150: Box009
+    4300152: Box010
+    4300154: Box136
+    4300156: Box137
+    4300158: Line038
+    4300160: Box138
+    4300162: Box139
+    4300164: Box140
+    4300166: Box141
+    4300168: Box142
+    4300170: Line039
+    4300172: Box143
+    4300174: Box144
+    4300176: Box145
+    4300178: Box146
+    4300180: Box147
+    4300182: Line040
+    4300184: Box148
+    4300186: Box149
+    4300188: Box150
+    4300190: Box151
+    4300192: Box152
+    4300194: Line041
+    4300196: Box153
+    4300198: Box154
+    4300200: Box155
+    4300202: "Bygning v\xE6gge v1_69"
+    4300204: "Bygning v\xE6gge v1_67"
+    4300206: "Bygning v\xE6gge v1_68"
+    4300208: "Bygning v\xE6gge v1_70"
+    4300210: "Bygning v\xE6gge v1_61"
+    4300212: "Bygning v\xE6gge v1_63"
+    4300214: "Bygning v\xE6gge v1_64"
+    4300216: "Bygning v\xE6gge v1_59"
+    4300218: "Bygning v\xE6gge v1_60"
+    4300220: "Bygning v\xE6gge v1_62"
+    4300222: "Bygning v\xE6gge v1_65"
+    4300224: "Bygning v\xE6gge v1_66"
+    4300226: "Bygning v\xE6gge v1_50"
+    4300228: "Bygning v\xE6gge v1_48"
+    4300230: "Bygning v\xE6gge v1_53"
+    4300232: "Bygning v\xE6gge v1_51"
+    4300234: "Bygning v\xE6gge v1_52"
+    4300236: "Bygning v\xE6gge v1_58"
+    4300238: "Bygning v\xE6gge v1_57"
+    4300240: "Bygning v\xE6gge v1_55"
+    4300242: "Bygning v\xE6gge v1_56"
+    4300244: "Bygning v\xE6gge v1_54"
+    4300246: "Bygning v\xE6gge v1_71"
+    4300248: "Bygning v\xE6gge v1_72"
+    4300250: "Bygning v\xE6gge v1_73"
+    4300252: "Bygning v\xE6gge v1_74"
+    4300254: "Bygning v\xE6gge v1_49"
+    4300256: "Bygning v\xE6gge v1_45"
+    4300258: "Bygning v\xE6gge v1_19"
+    4300260: "Bygning v\xE6gge v1_30"
+    4300262: "Bygning v\xE6gge v1_29"
+    4300264: "Bygning v\xE6gge v1_43"
+    4300266: "Bygning v\xE6gge v1_26"
+    4300268: "Bygning v\xE6gge v1_25"
+    4300270: "Bygning v\xE6gge v1_28"
+    4300272: "Bygning v\xE6gge v1_27"
+    4300274: "Bygning v\xE6gge v1_44"
+    4300276: "Bygning v\xE6gge v1_03"
+    4300278: "Bygning v\xE6gge v1_42"
+    4300280: "Bygning v\xE6gge v1_47"
+    4300282: "Bygning v\xE6gge v1_07"
+    4300284: "Bygning v\xE6gge v1_18"
+    4300286: "Bygning v\xE6gge v1_21"
+    4300288: "Bygning v\xE6gge v1_41"
+    4300290: "Bygning v\xE6gge v1_06"
+    4300292: "Bygning v\xE6gge v1_05"
+    4300294: "Bygning v\xE6gge v1_46"
+    4300296: "Bygning v\xE6gge v1_22"
+    4300298: "Bygning v\xE6gge v1_20"
+    4300300: "Bygning v\xE6gge v1_01"
+    4300302: "Bygning v\xE6gge v1_24"
+    4300304: "Bygning v\xE6gge v1_02"
+    4300306: "Bygning v\xE6gge v1_23"
+    4300308: "Bygning v\xE6gge v1_04"
+    4300310: "Bygning v\xE6gge v1_081"
+    4300312: "Bygning v\xE6gge v1_35"
+    4300314: "Bygning v\xE6gge v1_39"
+    4300316: "Bygning v\xE6gge v1_15"
+    4300318: "Bygning v\xE6gge v1_37"
+    4300320: "Bygning v\xE6gge v1_14"
+    4300322: "Bygning v\xE6gge v1_11"
+    4300324: "Bygning v\xE6gge v1_13"
+    4300326: "Bygning v\xE6gge v1_10"
+    4300328: "Bygning v\xE6gge v1_17"
+    4300330: "Bygning v\xE6gge v1_33"
+    4300332: "Bygning v\xE6gge v1_09"
+    4300334: "Bygning v\xE6gge v1_08"
+    4300336: "Bygning v\xE6gge v1_36"
+    4300338: "Bygning v\xE6gge v1_32"
+    4300340: "Bygning v\xE6gge v1_12"
+    4300342: "Bygning v\xE6gge v1_34"
+    4300344: "Bygning v\xE6gge v1_40"
+    4300346: "Bygning v\xE6gge v1_38"
+    4300348: "Bygning v\xE6gge v1_31"
+    4300350: "Bygning v\xE6gge v1_16"
+    4300352: "Bygning v\xE6gge v1_082"
+    4300354: "Bygning v\xE6gge v1_80"
+    4300356: "Bygning v\xE6gge v1_79"
+    4300358: "Bygning v\xE6gge v1_78"
+    4300360: Box004
+    4300362: Box005
+    4300364: Box006
+    4300366: Box007
+    4300368: roof
+    4300370: Box156
+    4300372: Object001
+    4300374: Box161
+    4300376: Box162
+    4300378: Box164
+    4300380: Box165
+    4300382: Step036
+    4300384: Step037
+    4300386: Step038
+    4300388: Step039
+    4300390: Step040
+    4300392: Step041
+    4300394: Elevator shaft
+    4300396: Step005
+    4300398: Step004
+    4300400: Step003
+    4300402: Step002
+    4300404: Step001
+    4300406: Step
+    4300408: Step006
+    4300410: Step007
+    4300412: Step008
+    4300414: Step009
+    4300416: Step010
+    4300418: Step011
+    4300420: Box0020
+    4300422: Guard end003
+    4300424: Guard start001
+    4300426: Guard start
+    4300428: Box0010
+    4300430: Guard end
+    4300432: Midway platform 1
+    4300434: Box0080
+    4300436: Box0090
+    4300438: Guard end006
+    4300440: Guard end009
+    4300442: Guard start002
+    4300444: Guard start003
+    4300446: Box010
+    4300448: Box011
+    4300450: Box012
+    4300452: Box013
+    4300454: Box014
+    4300456: Guard end007
+    4300458: Guard end008
+    4300460: Guard end010
+    4300462: Guard end011
+    4300464: Midway platform 002
+    4300466: Step012
+    4300468: Step013
+    4300470: Step014
+    4300472: Step015
+    4300474: Step016
+    4300476: Step017
+    4300478: Step018
+    4300480: Step019
+    4300482: Step020
+    4300484: Step021
+    4300486: Step022
+    4300488: Step023
+    4300490: Box0150
+    4300492: Guard end012
+    4300494: Guard start004
+    4300496: Guard start005
+    4300498: Box017
+    4300500: Box018
+    4300502: Box019
+    4300504: Box020
+    4300506: Box021
+    4300508: Guard end013
+    4300510: Guard end014
+    4300512: Guard end016
+    4300514: Guard end017
+    4300516: Midway platform 003
+    4300518: Step024
+    4300520: Step025
+    4300522: Step026
+    4300524: Step027
+    4300526: Step028
+    4300528: Step029
+    4300530: Box004
+    4300532: Guard end002
+    4300534: Box005
+    4300536: Box006
+    4300538: Guard end005
+    4300540: Guard end004
+    4300542: Box007
+    4300544: Guard end001
+    4300546: Box003
+    4300548: Step042
+    4300550: Step043
+    4300552: Step044
+    4300554: Step045
+    4300556: Step046
+    4300558: Step047
+    4300560: Step048
+    4300562: Step049
+    4300564: Guard end018
+    4300566: Guard end019
+    4300568: Box169
+    4300570: Guard end020
+    4300572: Box166
+    4300574: Box170
+    4300576: Box171
+    4300578: Guard end022
+    4300580: Guard end023
+    4300582: Box172
+    4300584: Box173
+    4300586: Guard end024
+    4300588: Guard end025
+    4300590: Box174
+    4300592: Box175
+    4300594: Guard end026
+    4300596: Guard end027
+    4300598: Box176
+    4300600: Box177
+    4300602: Guard end028
+    4300604: Guard end029
+    4300606: Box178
+    4300608: Box179
+    4300610: Guard end030
+    4300612: Guard end031
+    4300614: Box180
+    4300616: Box181
+    4300618: Guard end032
+    4300620: Guard end033
+    4300622: Box182
+    4300624: Box183
+    4300626: Guard end034
+    4300628: Guard end035
+    4300630: Guard end036
+    4300632: Box184
+    4300634: Box185
+    4300636: Guard end037
+    4300638: Guard end038
+    4300640: Box186
+    4300642: Box187
+    4300644: Guard end039
+    4300646: Guard end040
+    4300648: Box188
+    4300650: Box189
+    4300652: Guard end041
+    4300654: Guard end042
+    4300656: Box190
+    4300658: Box191
+    4300660: Guard end043
+    4300662: Guard end044
+    4300664: Box192
+    4300666: Box193
+    4300668: Guard end045
+    4300670: Guard end046
+    4300672: Box194
+    4300674: Guard end047
+    4300676: Box198
+    4300678: Guard end048
+    4300680: Box199
+    4300682: Guard end049
+    4300684: Box200
+    4300686: Guard end050
+    4300688: Guard end051
+    4300690: Box201
+    4300692: Guard end052
+    4300694: Box202
+    4300696: Guard end053
+    4300698: Box203
+    4300700: Guard end054
+    4300702: Box204
+    4300704: Guard end055
+    4300706: Box205
+    4300708: Box206
+    4300710: Guard end056
+    4300712: Box207
+    4300714: Guard end057
+    4300716: Box208
+    4300718: Guard end058
+    4300720: Guard end059
+    4300722: Box209
+    4300724: Guard end060
+    4300726: Guard end061
+    4300728: Box210
+    4300730: Guard end062
+    4300732: Box211
+    4300734: Guard end063
+    4300736: Box212
+    4300738: Guard end064
+    4300740: Box213
+    4300742: Guard end065
+    4300744: Guard end066
+    4300746: Box214
+    4300748: Guard end067
+    4300750: Box215
+    4300752: Guard end068
+    4300754: Box216
+    4300756: Guard end069
+    4300758: Box217
+    4300760: Guard end070
+    4300762: Box218
+    4300764: Guard end071
+    4300766: Box219
+    4300768: Guard end072
+    4300770: Box220
+    4300772: Guard end073
+    4300774: Box221
+    4300776: Guard end074
+    4300778: Box222
+    4300780: Box223
+    4300782: Guard end075
+    4300784: Box224
+    4300786: Guard end076
+    4300788: Box225
+    4300790: Guard end077
+    4300792: Box226
+    4300794: Guard end078
+    4300796: Box227
+    4300798: Guard end079
+    4300800: Box228
+    4300802: Guard end080
+    4300804: Box229
+    4300806: Guard end081
+    4300808: Box230
+    4300810: Guard end082
+    4300812: Box231
+    4300814: Box232
+    4300816: Box234
+    4300818: Box235
+    4300820: Box236
+    4300822: Plane002
+    4300824: Box237
+    4300826: Box238
+    4300828: Box239
+    4300830: Box240
+    4300832: Box241
+    4300834: Box242
+    4300836: Box243
+    4300838: Box244
+    4300840: Box245
+    4300842: Box246
+    4300844: Box247
+    4300846: Box248
+    4300848: Box249
+    4300850: Box250
+    4300852: Box251
+    4300854: Box252
+    4300856: Box253
+    4300858: Box254
+    4300860: Box255
+    4300862: Box256
+    4300864: Box257
+    4300866: Box258
+    4300868: Box259
+    4300870: Box260
+    4300872: Box261
+    4300874: Box262
+    4300876: Box263
+    4300878: Box264
+    4300880: Box265
+    4300882: Box266
+    4300884: Box267
+    4300886: Box268
+    4300888: Box269
+    4300890: Box270
+    4300892: Box271
+    4300894: Box272
+    4300896: Box273
+    4300898: Box274
+    4300900: Box275
+    4300902: Box276
+    4300904: Box277
+    4300906: Box278
+    4300908: Box279
+    4300910: Box280
+    4300912: Box281
+    4300914: Box282
+    4300916: Box283
+    4300918: Box284
+    4300920: Box285
+    4300922: Box286
+    4300924: Box287
+    4300926: Box288
+    4300928: Box289
+    4300930: Box290
+    4300932: Box291
+    4300934: Box292
+    4300936: Box293
+    4300938: Box294
+    4300940: Box295
+    4300942: Box296
+    4300944: Box297
+    4300946: Box298
+    4300948: Box299
+    4300950: Box300
+    4300952: Box301
+    4300954: Box302
+    4300956: Box303
+    4300958: Box304
+    4300960: Box305
+    4300962: Box306
+    4300964: Box307
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
