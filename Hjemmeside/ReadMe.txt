@@ -1,0 +1,1 @@
+Åben Index.html filen i en webbrowser (helst google chrome)
